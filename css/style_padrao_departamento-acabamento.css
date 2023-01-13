@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@100;500;700&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.header-main {
+    padding: 5px 0 10px 0;
+    background-color: #ffffffdb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    border-bottom: 0.2px solid rgb(206, 201, 201);
+}
+
+.botoes {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.botao {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+}
+
+img {
+    height: 50px;
+}
+.icons {
+    display: flex;
+    gap: 60px;
+}
+
+#icon1,
+#icon2,
+#icon3 {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.section-apresenta-departamento {
+    width: 100%;
+    position: relative;
+}
+
+#capa-departamento {
+    width: 100%;
+    height: auto;
+}
+.representa-departamento-completa {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 30px;
+    gap: 20px;
+    margin-top: -90px;
+}
+.representacao-departamento {
+    display: flex;
+    margin-left: 20px;
+    background-color: #FF2424;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 100px;
+}
+.representacao-departamento img {
+    height: auto;
+    width: 50px;
+}
+.title-section {
+    font-size: 30px;
+    margin: 40px;
+    text-align: center;
+}
+
+.produtos-section-departamento {
+    display: flex;
+    justify-content: center;
+}
+.produto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.produto:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.produto img {
+    width: 200px;
+    height: auto;
+}
+
+.marcas-section-departamento{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.marcas-section-departamento img{
+ width: 200px;
+ height: auto;
+ border-radius: 50%;
+ box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1921568627);
+}
+.categorias{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.categorias-unidas{
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+width: 80%;
+justify-content: space-between;
+}
+
+.categorias-section-departamento img{
+    width: 200px;
+    border-radius: 20px;
+    height: auto;
+}
+.orcamento {
+    gap: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.orcamento h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+}
+.orcamento p {
+    font-size: 20px;
+    margin-top: 0;
+}
+.orcamento img {
+    width: 60%;
+    height: auto;
+    margin: 20px;
+}
+
+.orcamento button {
+    padding: 10px 25px;
+    font-size: 16px;
+    width: 200px;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.orcamento button:hover {
+    background-color: #2d2c2c;
+}
+.orcamento a {
+    text-decoration: none;
+}
+
+.fotter-main {
+    border-radius: 120px 0 0 0;
+    margin-top: 25px;
+    background-color: #fffdf0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-rodape {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.botao-rodape {
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.botao-rodape:hover {
+    border-radius: 25px;
+    color: #f6ae03;
+    transition: all 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.convidativo {
+    display: grid;
+    grid-template-areas:
+        "imagem texto texto"
+        "imagem texto texto"
+        "imagem redes redes";
+}
+
+.convidativo img {
+    width: 120px;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 20px;
+    grid-area: imagem;
+}
+
+.frase-convidativo {
+    margin-left: 30px;
+    grid-area: texto;
+    font-size: 25px;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+}
+
+#frase-suascompras {
+    margin-top: -60px;
+    font-family: "raleway";
+    letter-spacing: 08px;
+}
+.redes {
+    grid-area: redes;
+    margin-left: 10px;
+    margin-top: -px;
+}
+.redes a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#icon-r1 {
+    color: #1400ff;
+}
+#icon-r2 {
+    color: #ff507a;
+}
+
+#icon-r3 {
+    color: #2fad34;
+}
+
+#icon-r4 {
+    color: #e37918;
+}
+
+#copy {
+    color: rgb(180, 179, 179);
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+}

@@ -1,0 +1,250 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@100;500;700&display=swap");
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*.reveal{
+    position: relative;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+    .reveal.active{
+        transform: translateY(0);
+        opacity: 1;
+    }
+*/
+.header-main{
+    padding: 5px 0 10px  0;
+    background-color:#ffffffa1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+.botoes{
+    display: flex;
+    gap: 50px;
+}
+
+.botao {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+
+img{
+    height: 50px;
+}
+.icons{
+    display: flex;
+    gap: 60px;
+}
+
+#icon1, #icon2, #icon3{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.contato{
+    margin: 30px;
+    display: grid;
+    column-gap: 30px;;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "informacao ilustra";
+}
+.contato-informacao{
+
+    grid-area: informacao;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+    align-items: center;
+}
+.title-contato{
+font-family: 'Poppins', sans-serif;
+position: absolute;
+z-index: 1;
+left: 200px;
+font-size: 35px;
+width: 30%;
+line-height: 60px;
+color: #000000;
+}
+
+.circulomaior{
+    background-color: #1400ff;
+    position: absolute;
+    left: 150px;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+.circulomenor{
+    width: 150px;
+    height: 150px;
+    background-color: #f6ae03;
+    position: absolute;
+    left: -35px;
+    top: 200px;
+    border-radius: 50%;
+}
+.contato-sac{
+font-family: 'Raleway';
+background-color:#02005a ;
+box-shadow: -1px 36px 0px -13px rgba(64, 62, 158, 0.87);
+border-radius: 10px;
+text-align: center;
+width: 50%;
+padding: 0 25px;
+color: white;
+margin-top: 25px;
+}
+
+.contato-botao{
+    margin-top: -220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contato-email, .contato-telefone{
+    background-color: #f6ae03;
+    text-align: left;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-family: "raleway";
+}
+
+.contato-telefone a, .contato-email a{
+text-decoration: none;
+color: #000000;
+}
+.title-contato-sac{
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contato-ilustracao{
+    grid-area: ilustra;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+.contato-ilustracao img{
+    width: 600px;
+    height: auto;
+}
+.fotter-main {
+    border-radius: 120px 0 0 0;
+    margin-top: 25px;
+    background-color: #fffdf0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-rodape {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.botao-rodape {
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.botao-rodape:hover {
+    border-radius: 25px;
+    color: #f6ae03;
+    transition: all 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.convidativo {
+    display: grid;
+    grid-template-areas:
+        "imagem texto texto"
+        "imagem texto texto"
+        "imagem redes redes";
+}
+
+.convidativo img {
+    width: 120px;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 20px;
+    grid-area: imagem;
+}
+
+.frase-convidativo {
+    margin-left: 30px;
+    grid-area: texto;
+    font-size: 25px;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+}
+
+#frase-suascompras {
+    margin-top: -60px;
+    font-family: "raleway";
+    letter-spacing: 08px;
+}
+.redes {
+    grid-area: redes;
+    margin-left: 10px;
+    margin-top: -px;
+}
+.redes a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#icon-r1 {
+    color: #1400ff;
+}
+#icon-r2 {
+    color: #ff507a;
+}
+
+#icon-r3 {
+    color: #2fad34;
+}
+
+#icon-r4 {
+    color: #e37918;
+}
+
+#copy {
+    color: rgb(180, 179, 179);
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+}

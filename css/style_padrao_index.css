@@ -1,0 +1,543 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@100;500;700&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+}
+
+.header-main {
+    padding: 5px 0 10px 0;
+    background-color: #ffffffdb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    border-bottom: 0.2px solid rgb(206, 201, 201);
+}
+
+.botoes {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.botao {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+}
+
+.header-main img {
+    height: 50px;
+}
+.icons {
+    display: flex;
+    gap: 60px;
+}
+
+#icon1,
+#icon2,
+#icon3 {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.section-informacoes {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+.section-info-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#card2 {
+    background-color: #f6ae03;
+}
+.space {
+    height: 150px;
+}
+.section-info-card p {
+    text-align: center;
+}
+.section-info-icon {
+    background-color: #1400ff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-campanha img {
+    height: auto;
+    width: 100%;
+}
+.informacao img {
+    color: rgb(138, 64, 64);
+}
+.section-promocao {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.title-promocao {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.section-promocao h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+#banner-promo {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+.promos-destaques{
+    width: 100%;
+    margin: 30px 0px 50px 0px;
+    display: flex;
+    height: 100px;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+.promo-destaque-story{
+    width: 200px;
+    border-radius: 20px;
+    margin: 0 20px;
+    background-color: #18e35c;
+}
+.promodestaque{
+    display: flex;
+    width: 96%;
+    height: 200px;
+    margin: auto;
+    gap: 40px;
+    margin-top: -25px;
+}
+.promodestaque img{
+width: 49%;
+height: auto;
+object-fit: cover;
+border-radius: 20px;
+height: auto;
+}
+.promodestaque-info{
+    width: 50%;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-direction: column;
+}
+
+.tittle-destaca{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-bottom: -3px;
+}
+
+.v-normal{
+    font-size: 18px;
+}
+.v-promocional{
+    font-size: 25px;
+    font-family: 'Poppins' , sans-serif;
+    margin-top: -20px;
+    color: red;
+
+}
+.hall-promo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 30px;
+
+}
+
+.promocao-card{
+    background-color: #1400ff;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+
+}
+.section-departamento {
+    height: 493px;
+    width: 1307px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#title-departamento {
+    padding-left: 18px;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.departamentos {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.departamento {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1400ff;
+    border-radius: 40px;
+    width: 179.53px;
+    height: 177.28px;
+}
+.circle-departamento {
+    background-color: #18e35c;
+    border-radius: 40.6793px;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+.icone {
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+}
+.name-departamento {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-top: -20px;
+    padding: -50px;
+}
+.orcamento {
+    gap: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.orcamento h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+}
+.orcamento p {
+    font-size: 20px;
+    margin-top: 0;
+}
+.orcamento img {
+    width: 60%;
+    height: auto;
+    margin: 20px;
+}
+
+.orcamento button {
+    padding: 10px 25px;
+    font-size: 16px;
+    width: 200px;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.orcamento button:hover {
+    background-color: #2d2c2c;
+}
+.orcamento a {
+    text-decoration: none;
+}
+.section-marcas h2 {
+    margin-left: 50px;
+    font-family: "Poppins";
+    font-size: 30px;
+}
+.marquee-full-width {
+    width: 100%;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+.marquee-box {
+    overflow-x: hidden !important;
+    display: flex !important;
+    flex-direction: row !important;
+    position: relative;
+    width: 100%;
+}
+.marquee {
+    flex: 0 0 auto;
+    min-width: 100%;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: marqueescroll 25s linear 0s infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-direction: normal;
+}
+
+.marquee figure {
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding: 5px;
+    max-width: 250px;
+    text-align: center;
+    vertical-align: top;
+}
+.marquee figcaption {
+    display: none;
+    font-weight: 80%;
+    color: #333;
+    line-height: 1.2;
+}
+.marquee img {
+    margin: 0 auto;
+    height: auto;
+    max-height: 120px;
+    max-width: 100%;
+    background: #fdfdfd;
+    border: none;
+}
+.marquee-box:hover div {
+    animation-play-state: running;
+}
+.marquee-box:active div {
+    animation-play-state: running;
+}
+@keyframes marqueescroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.section-apresentacao {
+    margin-bottom: 00px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.fotos {
+    width: 1000px;
+    height: 600px;
+    display: grid;
+    grid-template-areas:
+        "f1 f2 f3"
+        "f1 f2 f3"
+        "f1 f4 f5"
+        "f1 f4 f6";
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.foto {
+    background-color: #1400ff;
+}
+#ft1 {
+    grid-area: f1;
+}
+#ft2 {
+    grid-area: f2;
+}
+#ft3 {
+    grid-area: f3;
+}
+#ft4 {
+    grid-area: f4;
+}
+#ft5 {
+    grid-area: f5;
+}
+#ft6 {
+    grid-area: f6;
+}
+
+.section-apresentacao button {
+    padding: 10px 15px;
+    font-size: 25px;
+    text-align: center;
+    width: 400px;
+    margin-top: 50px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: black;
+    border: 0px;
+    background-color: #f6ae03;
+}
+.section-apresentacao button:hover {
+    background-color: #e2a415;
+}
+.section-apresentacao a {
+    text-decoration: none;
+}
+.apresentacao {
+    background-color: white;
+}
+.apresentacao h2 {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: -25px;
+}
+
+.apresentacao p {
+    font-size: 20px;
+}
+
+#confete {
+    width: 1000px;
+    height: auto;
+    margin-top: -600px;
+    position: sticky;
+    z-index: -1;
+}
+.section-localiza {
+    margin-top: -400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-localiza h2 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-localiza i {
+    padding-right: 25px;
+}
+
+#maps {
+    width: 80%;
+    border-radius: 20px;
+}
+.fotter-main {
+    border-radius: 120px 0 0 0;
+    margin-top: 25px;
+    background-color: #fffdf0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-rodape {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.botao-rodape {
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.botao-rodape:hover {
+    border-radius: 25px;
+    color: #f6ae03;
+    transition: all 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.convidativo {
+    display: grid;
+    grid-template-areas:
+        "imagem texto texto"
+        "imagem texto texto"
+        "imagem redes redes";
+}
+
+.convidativo img {
+    width: 120px;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 20px;
+    grid-area: imagem;
+}
+
+.frase-convidativo {
+    margin-left: 30px;
+    grid-area: texto;
+    font-size: 25px;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+}
+
+#frase-suascompras {
+    margin-top: -60px;
+    font-family: "raleway";
+    letter-spacing: 08px;
+}
+.redes {
+    grid-area: redes;
+    margin-left: 10px;
+    margin-top: -px;
+}
+.redes a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#icon-r1 {
+    color: #1400ff;
+}
+#icon-r2 {
+    color: #ff507a;
+}
+
+#icon-r3 {
+    color: #2fad34;
+}
+
+#icon-r4 {
+    color: #e37918;
+}
+
+#copy {
+    color: rgb(180, 179, 179);
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+}

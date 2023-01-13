@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@100;500;700&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.header-main {
+    padding: 5px 0 10px 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+}
+
+.botoes {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.botao {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+img {
+    height: 50px;
+}
+.icons {
+    display: flex;
+    gap: 60px;
+}
+
+#icon1,
+#icon2,
+#icon3 {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section img{
+    width: 100%;
+    height: auto;
+}
+
+.departamentos-historias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+#small-text{
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #f6ae03;
+    font-weight: 400;
+    margin: 0;
+}
+#title-text-departa{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans serif;
+    margin-top: 0;
+}
+
+#descricao-text-departa{
+    margin: 15px;
+    color: #000000;
+    margin-top: -15px;
+}
+
+.departamentos-historias img{
+    width: 500px;
+    height: auto;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 60px;
+}
+.video img{
+    width: 30%;
+    height: auto;
+
+}
+.video-historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-historia p{
+    font-weight: bold;
+    font-size:30px;
+}
+
+
+.section-apresentacao {
+    margin-bottom: 00px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.fotos {
+    width: 1000px;
+    height: 600px;
+    display: grid;
+    grid-template-areas:
+        "f1 f2 f3"
+        "f1 f2 f3"
+        "f1 f4 f5"
+        "f1 f4 f6";
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.foto {
+    background-color: #1400ff;
+}
+#ft1 {
+    grid-area: f1;
+}
+#ft2 {
+    grid-area: f2;
+}
+#ft3 {
+    grid-area: f3;
+}
+#ft4 {
+    grid-area: f4;
+}
+#ft5 {
+    grid-area: f5;
+}
+#ft6 {
+    grid-area: f6;
+}
+
+
+.section-apresentacao a {
+    text-decoration: none;
+}
+.apresentacao {
+    background-color: white;
+}
+.apresentacao h2 {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: -25px;
+}
+
+.apresentacao p {
+    font-size: 20px;
+}
+
+.final{
+    width: 50%;
+    text-align: justify;
+}
+
+
+
+
+
+
+.fotter-main {
+    border-radius: 120px 0 0 0;
+    margin-top: 25px;
+    background-color: #fffdf0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-rodape {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.botao-rodape {
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.botao-rodape:hover {
+    border-radius: 25px;
+    color: #f6ae03;
+    transition: all 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.convidativo {
+    display: grid;
+    grid-template-areas:
+        "imagem texto texto"
+        "imagem texto texto"
+        "imagem redes redes";
+}
+
+.convidativo img {
+    width: 120px;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 20px;
+    grid-area: imagem;
+}
+
+.frase-convidativo {
+    margin-left: 30px;
+    grid-area: texto;
+    font-size: 25px;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+}
+
+#frase-suascompras {
+    margin-top: -60px;
+    font-family: "raleway";
+    letter-spacing: 08px;
+}
+.redes {
+    grid-area: redes;
+    margin-left: 10px;
+    margin-top: -px;
+}
+.redes a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#icon-r1 {
+    color: #1400ff;
+}
+#icon-r2 {
+    color: #ff507a;
+}
+
+#icon-r3 {
+    color: #2fad34;
+}
+
+#icon-r4 {
+    color: #e37918;
+}
+
+#copy {
+    color: rgb(180, 179, 179);
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+}
