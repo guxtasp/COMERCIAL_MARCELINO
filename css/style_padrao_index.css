@@ -558,6 +558,11 @@ height: auto;
        height: 40px;
     }
 
+    .section-campanha{
+        width: 100%;
+        height: auto;
+    }
+
     .section-informacoes{
         width: 90%;
         display: flex;
