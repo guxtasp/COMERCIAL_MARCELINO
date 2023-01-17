@@ -6,7 +6,6 @@ body {
     background-color: white;
 }
 
-
 .header-main {
     padding: 5px 0 10px 0;
     background-color: #e3dadae9;
@@ -20,7 +19,6 @@ body {
     text-transform: uppercase;
     border-bottom: 0.2px solid rgb(206, 201, 201);
 }
-
 
 .botoes {
     display: flex;
@@ -52,71 +50,39 @@ body {
     font-size: 25px;
 }
 .section-informacoes {
-    display: flex;
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+    padding: 60px;
 }
 .section-info-card {
     display: flex;
-    justify-content: center;
+    gap: 20%;
     align-items: center;
-    flex-direction: column;
-}
-#card2 {
-    background-color: #f6ae03;
-}
-.space {
-    height: 150px;
-}
-.section-info-card p {
-    text-align: center;
-}
-.section-info-icon {
-    background-color: #1400ff;
-    border-radius: 50%;
-    padding: 10px;
-    display: flex;
     justify-content: center;
-    align-items: center;
-}
-.section-info-icon img{
-    width: 5em;
-    height: 5em;
 }
 
 .section-campanha img {
     height: auto;
     width: 100%;
 }
-.informacao img {
-    color: rgb(138, 64, 64);
-}
+
 .section-promocao {
     display: flex;
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
     gap: 15px;
-}
-
-.title-promocao {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
 }
 .section-promocao h2 {
     font-family: "Poppins", sans-serif;
     font-size: 30px;
 }
 #banner-promo {
-    height: 150px;
+    height: auto;
     object-fit: cover;
     width: 100%;
 }
-.promos-destaques{
+.promos-destaques {
     width: 100%;
     margin: 30px 0px 50px 0px;
     display: flex;
@@ -124,13 +90,13 @@ body {
     gap: 15px;
     justify-content: space-evenly;
 }
-.promo-destaque-story{
+.promo-destaque-story {
     width: 200px;
     border-radius: 20px;
     margin: 0 20px;
     background-color: #18e35c;
 }
-.promodestaque{
+.promodestaque {
     display: flex;
     width: 96%;
     height: 200px;
@@ -138,14 +104,14 @@ body {
     gap: 40px;
     margin-top: -25px;
 }
-.promodestaque img{
-width: 49%;
-height: auto;
-object-fit: cover;
-border-radius: 20px;
-height: auto;
+.promodestaque img {
+    width: 49%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    height: auto;
 }
-.promodestaque-info{
+.promodestaque-info {
     width: 50%;
     display: flex;
     text-align: justify;
@@ -155,21 +121,20 @@ height: auto;
     flex-direction: column;
 }
 
-.tittle-destaca{
-    font-family: 'Poppins', sans-serif;
+.tittle-destaca {
+    font-family: "Poppins", sans-serif;
     font-size: 25px;
     margin-bottom: -3px;
 }
 
-.v-normal{
+.v-normal {
     font-size: 18px;
 }
-.v-promocional{
+.v-promocional {
     font-size: 25px;
-    font-family: 'Poppins' , sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-top: -20px;
     color: red;
-
 }
 .hall-promo {
     display: flex;
@@ -177,15 +142,13 @@ height: auto;
     flex-wrap: wrap;
     margin: 20px;
     gap: 30px;
-
 }
 
-.promocao-card{
+.promocao-card {
     background-color: #1400ff;
     width: 300px;
     height: 300px;
     border-radius: 25px;
-
 }
 .section-departamento {
     width: 100%;
@@ -237,7 +200,7 @@ a {
     margin: 25px;
 }
 
-.icone img{
+.icone img {
     max-width: 50px;
 }
 .name-departamento {
@@ -560,53 +523,26 @@ a {
     margin-top: 30px;
 }
 
-
-@media screen and (max-width: 450px){
-    .botoes, .icons{
+@media screen and (max-width: 450px) {
+    .botoes,
+    .icons {
         display: none;
     }
 
-    .header-main img{
-       height: 40px;
+    .header-main img {
+        height: 40px;
     }
 
-.section-campanha img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-    .section-informacoes{
-        width: 90%;
-        display: flex;
+    .section-campanha img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
 
-    }
-    .section-info-card p{
-        font-size: 10px;
-        text-align: center;
-    }
-    .section-info-card p{
-        padding: 0;
-        width: 70px;
-    }
-    .section-info-icon{
-        width: 3em;
-        height: 3em;
-        padding: 10px;
-    }
-    .section-info-icon img{
-        width: 30px;
-    }
-    .space{
-        height: 50px;
-    }
-    .linha{
-        width: 70px;
-        stroke-width: 25px;
-    }
-    .section-promocao{
+    .section-promocao {
         width: 100%;
     }
-    .title-promocao h2{
+    .title-promocao h2 {
         font-size: 15px;
     }
 }
