@@ -50,15 +50,25 @@ body {
     font-size: 25px;
 }
 .section-informacoes {
-    padding: 60px;
-}
-.section-info-card {
+    margin: 60px;
     display: flex;
     gap: 20%;
     align-items: center;
     justify-content: center;
 }
 
+
+.section-informacoes img{
+    width: 200px;
+    height: auto;
+}
+#info2{
+    width: 260px;
+}
+
+#info3{
+    width: 250px;
+}
 .section-campanha img {
     height: auto;
     width: 100%;
