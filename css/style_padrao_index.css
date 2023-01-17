@@ -580,8 +580,9 @@ a {
         display: flex;
 
     }
-    .section-info-card{
-        font-size: 12px;
+    .section-info-card p{
+        font-size: 10px;
+        text-align: center;
     }
     .section-info-card p{
         padding: 0;
