@@ -558,10 +558,6 @@ height: auto;
        height: 40px;
     }
 
-    .section-campanha{
-        width: 100%;
-        height: 600px;
-    }
 
     .section-informacoes{
         width: 90%;
@@ -587,6 +583,6 @@ height: auto;
         height: 50px;
     }
     .linha{
-        width: 50px;
+        width: 70px;
     }
 }
