@@ -584,5 +584,12 @@ height: auto;
     }
     .linha{
         width: 70px;
+        stroke-width: 25px;
+    }
+    .section-promocao{
+        width: 100%;
+    }
+    .title-promocao h2{
+        font-size: 15px;
     }
 }
