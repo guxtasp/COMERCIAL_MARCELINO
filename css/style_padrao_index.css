@@ -558,7 +558,9 @@ height: auto;
        height: 40px;
     }
 
-
+.section-campanha img{
+    
+}
     .section-informacoes{
         width: 90%;
         display: flex;
