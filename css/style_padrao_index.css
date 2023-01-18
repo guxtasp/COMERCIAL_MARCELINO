@@ -236,8 +236,8 @@ a {
 
 .orcamento button {
     padding: 10px 25px;
-    font-size: 12px;
-    width: 30%;
+    font-size: 15px;
+    width: 200px;
     font-family: "Raleway", sans-serif;
     display: flex;
     align-items: center;
@@ -246,6 +246,9 @@ a {
     border-radius: 20px;
     color: white;
     background-color: black;
+}
+.orcamento button p{
+    margin: 0;
 }
 .orcamento button:hover {
     background-color: #2d2c2c;
@@ -677,5 +680,5 @@ a {
         padding: 2px;
     }
 
-    
+
 }
