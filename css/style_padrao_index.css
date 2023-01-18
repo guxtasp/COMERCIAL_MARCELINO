@@ -548,11 +548,24 @@ a {
         height: 200px;
         object-fit: cover;
     }
+    .section-informacoes{
+        margin: 20px 40px 20px 40px;
+        display: flex;
+        justify-content: space-around;
+        }
+    #info1, #info2, #info3{
+        width: 25%;
+
+    }
+
+    #info2{
+        width: 30%;
+    }
+    #info3{
+        width: 28%;
+    }
 
     .section-promocao {
         width: 100%;
-    }
-    .title-promocao h2 {
-        font-size: 15px;
     }
 }
