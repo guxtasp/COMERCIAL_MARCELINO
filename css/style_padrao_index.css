@@ -254,7 +254,7 @@ a {
     text-decoration: none;
 }
 .section-marcas h2 {
-    margin-left: 50px;
+    margin-left: 10px;
     font-family: "Poppins";
     font-size: 30px;
 }
@@ -651,8 +651,14 @@ a {
     .orcamento button p{
         margin: 0 10px;
     }
+    .section-marcas h2{
+        font-size: 20px;
+    }
 
     .marquee figure{
         max-width: 100px;
+    }
+    .marquee{
+        animation: marqueescroll 10s linear 0s infinite;
     }
 }
