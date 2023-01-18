@@ -426,7 +426,7 @@ a {
 .fotter-main {
     border-radius: 120px 0 0 0;
     margin-top: 25px;
-    background-color: #fffdf0;
+    background-color: #03062C;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -442,9 +442,10 @@ a {
 
 .botao-rodape {
     padding: 10px;
+    font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 10px;
 }
 
@@ -465,7 +466,7 @@ a {
 }
 
 .convidativo img {
-    width: 120px;
+    width: 200px;
     height: auto;
     border-radius: 100%;
     margin-top: 20px;
@@ -474,17 +475,22 @@ a {
 
 .frase-convidativo {
     margin-left: 30px;
+    color: white;
     grid-area: texto;
     font-size: 25px;
     font-family: "Poppins";
     display: flex;
     flex-direction: column;
 }
+#frase-venhafazer{
+    font-size: 40px;
+}
 
 #frase-suascompras {
-    margin-top: -40px;
+    margin-top: -70px;
     font-family: "raleway";
     letter-spacing: 08px;
+    font-size: 30px;
 }
 .redes {
     grid-area: redes;
@@ -492,7 +498,7 @@ a {
     margin-top: -px;
 }
 .redes a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 30px;
     padding: 20px;
@@ -500,25 +506,10 @@ a {
     font-weight: bold;
 }
 
-#icon-r1 {
-    color: #1400ff;
-}
-#icon-r2 {
-    color: #ff507a;
-}
-
-#icon-r3 {
-    color: #2fad34;
-}
-
-#icon-r4 {
-    color: #e37918;
-}
-
 #copy {
     color: rgb(180, 179, 179);
     font-family: "Raleway", sans-serif;
-    margin-top: 30px;
+
 }
 
 @media screen and (max-width: 450px) {
@@ -679,8 +670,10 @@ a {
         font-size: 20px;
         padding: 2px;
     }
+
     #logo-rodape{
-        width: 30%;
+        width: 50%;
+        height: auto;
     }
     .botao-rodape{
         font-size: 10px;
