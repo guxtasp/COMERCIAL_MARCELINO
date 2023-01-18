@@ -334,7 +334,7 @@ a {
 }
 .fotos {
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     display: grid;
     grid-template-areas:
         "f1 f2 f3"
@@ -345,7 +345,7 @@ a {
     column-gap: 1em;
 }
 .foto {
-    background-color: #1400ff;
+    background-color: #03062C;
 }
 #ft1 {
     grid-area: f1;
@@ -399,15 +399,8 @@ a {
     font-size: 20px;
 }
 
-#confete {
-    width: 100%;
-    height: auto;
-
-
-    z-index: -1;
-}
 .section-localiza {
-    margin-top: -400px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -660,5 +653,23 @@ a {
     }
     .marquee{
         animation: marqueescroll 10s linear 0s infinite;
+    }
+    .section-apresentacao{
+        width: 100%;
+    }
+    .apresentacao h2{
+        font-size: 20px;
+    }
+    .apresentacao p{
+        font-size: 16px;
+        margin-top: -5px;
+    }
+    .fotos{
+        height: 30vh;
+    }
+    .section-apresentacao button{
+        font-size: 12px;
+        width: 80%;
+        margin: 0;
     }
 }
