@@ -107,19 +107,17 @@ body {
 .promodestaque {
     display: flex;
     width: 100%;
-    height: 200px;
+    justify-content: center;
     margin: auto;
     gap: 40px;
 }
 .promodestaque img {
-    width: 49%;
-    height: auto;
-    object-fit: cover;
+    height: 400px;
+    width: auto;
     border-radius: 20px;
-    height: auto;
 }
 .promodestaque-info {
-    width: 50%;
+    width: 40%;
     display: flex;
     text-align: justify;
     justify-content: center;
@@ -134,13 +132,14 @@ body {
     margin-bottom: -3px;
 }
 
-.v-normal {
-    font-size: 18px;
+.v-normal, .descricao-destaca{
+    font-size: 20px;
 }
 .v-promocional {
-    font-size: 25px;
+    margin-top: -25px;
+    font-size: 30px;
     font-family: "Poppins", sans-serif;
-    color: red;
+    color: #ff0000;
 }
 .hall-promo {
     display: flex;
@@ -570,8 +569,6 @@ a {
     }
     .promodestaque{
         gap: 6px;
-        margin-left: 10px;
-        
     }
     .promodestaque img{
         width: 40%;
