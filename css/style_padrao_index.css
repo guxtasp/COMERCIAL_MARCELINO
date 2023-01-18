@@ -549,7 +549,7 @@ a {
         object-fit: cover;
     }
     .section-informacoes{
-        margin: 20px 40px 20px 40px;
+        margin: 20px 50px 20px 50px;
         display: flex;
         justify-content: space-around;
         }
