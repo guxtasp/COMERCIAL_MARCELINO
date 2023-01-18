@@ -150,7 +150,7 @@ body {
 }
 
 .promocao-card {
-    background-color: #1400ff;
+    background-color: #03062C;
     width: 20vw;
     height: 30vh;
 }
@@ -205,15 +205,13 @@ a {
 }
 
 .icone img {
-    max-width: 50px;
+    width: 50px;
 }
 .name-departamento {
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    margin-top: -20px;
-    padding: -50px;
+    font-size: 20px;
+    margin: 10px;
 }
-
 .orcamento {
     gap: 0px;
     display: flex;
@@ -282,7 +280,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    animation: marqueescroll 25s linear 0s infinite;
+    animation: marqueescroll 15s linear 0s infinite;
     animation-play-state: running;
     animation-delay: 0s;
     animation-direction: normal;
@@ -593,5 +591,35 @@ a {
         width: 40vw;
         gap: 5px;
         height: 20vh;
+    }
+    .section-departamento{
+        width: 100%;
+    }
+    #title-departamento{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .departamentos{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .departamento{
+        width: 90px;
+        padding: 15px;
+    }
+    .name-departamento {
+        font-size: 14px;
+        margin: -10px 0 0 0;
+        text-align: center;
+    }
+    
+    .circle-departamento{
+        width: auto;
+        height: auto;
+    }
+    .icone img{
+        width: 30px;
     }
 }
