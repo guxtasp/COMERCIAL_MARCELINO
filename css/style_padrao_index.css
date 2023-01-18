@@ -161,8 +161,9 @@ body {
     flex-direction: column;
 }
 #title-departamento {
-    padding-left: 18px;
-    font-size: 30px;
+    margin: 90px 0 20px;
+    text-align: center;
+    font-size: 40px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -171,8 +172,7 @@ body {
     gap: 15px;
     flex-wrap: wrap;
     align-items: center;
-    align-content: center;
-    margin: 0 50px;
+    justify-content: space-around;
 }
 .departamento {
     display: flex;
@@ -180,9 +180,9 @@ body {
     flex-direction: column;
     background-color: #1400ff;
     border-radius: 40px;
-    width: 15%;
-    max-width: 187px;
-    max-height: 173px;
+    width: 2px;
+    width: 20%;
+    height: 20%;
 }
 .circle-departamento {
     background-color: #18e35c;
