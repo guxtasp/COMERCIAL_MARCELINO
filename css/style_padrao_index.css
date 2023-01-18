@@ -236,8 +236,8 @@ a {
 
 .orcamento button {
     padding: 10px 25px;
-    font-size: 16px;
-    width: 200px;
+    font-size: 12px;
+    width: 30%;
     font-family: "Raleway", sans-serif;
     display: flex;
     align-items: center;
@@ -392,7 +392,7 @@ a {
 .apresentacao h2 {
     font-size: 40px;
     font-family: "Poppins", sans-serif;
-    margin-bottom: -25px;
+
 }
 
 .apresentacao p {
@@ -402,8 +402,8 @@ a {
 #confete {
     width: 100%;
     height: auto;
-    margin-top: -600px;
-    position: sticky;
+
+
     z-index: -1;
 }
 .section-localiza {
@@ -624,5 +624,31 @@ a {
     }
     .icone img{
         width: 20px;
+    }
+    .orcamento{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .orcamento h2{
+        font-size: 20px;
+    }
+    .orcamento p{
+        font-size: 15px;
+    }
+    .orcamento img{
+        margin: 0;
+    }
+    .orcamento button{
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .orcamento button p{
+        margin: 0 10px;
     }
 }
