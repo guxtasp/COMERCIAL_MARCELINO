@@ -672,4 +672,10 @@ a {
         width: 80%;
         margin: 0;
     }
+    .section-localiza h2, .section-localiza i{
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    
 }
