@@ -651,4 +651,8 @@ a {
     .orcamento button p{
         margin: 0 10px;
     }
+
+    .marquee figure{
+        max-width: 100px;
+    }
 }
