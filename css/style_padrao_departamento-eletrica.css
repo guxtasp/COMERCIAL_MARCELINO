@@ -277,3 +277,32 @@ justify-content: space-between;
     font-family: "Raleway", sans-serif;
     margin-top: 30px;
 }
+@media screen and (max-width:450px){
+    .botoes,
+    .icons {
+        display: none;
+    }
+
+    .header-main img {
+        height: 40px;
+    }
+    #capa-departamento{
+        width: 100%;
+        height: 150px;
+    }
+    .representacao-departamento{
+        width: 70px;
+        height: 70px;
+    }
+    .representacao-departamento img{
+        width: 50px;
+    }
+    .representa-departamento-completa{
+        margin: 0;
+        margin-top: -55px;
+    }
+    .representa-departamento-completa h1{
+        font-size: 25px;
+    }
+
+}

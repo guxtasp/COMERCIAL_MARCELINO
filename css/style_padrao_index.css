@@ -245,13 +245,14 @@ a {
     text-transform: uppercase;
     border-radius: 20px;
     color: white;
-    background-color: black;
+    background-color: #82DC23;
+    border: none;
 }
 .orcamento button p{
     margin: 0;
 }
 .orcamento button:hover {
-    background-color: #2d2c2c;
+    background-color: #5a9819;
 }
 .orcamento a {
     text-decoration: none;
@@ -259,7 +260,7 @@ a {
 .section-marcas h2 {
     margin-left: 10px;
     font-family: "Poppins";
-    font-size: 30px;
+    font-size: 40px;
 }
 .marquee-full-width {
     width: 100%;
