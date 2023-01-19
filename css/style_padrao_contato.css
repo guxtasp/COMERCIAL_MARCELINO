@@ -212,6 +212,9 @@ body{
 }
 
 @media screen and (max-width:450px){
+    body{
+        background-color: #03062C;
+    }
     .botoes,
     .icons {
         display: none;
