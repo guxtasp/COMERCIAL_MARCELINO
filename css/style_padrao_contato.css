@@ -5,50 +5,45 @@ body{
     padding: 0;
     font-family: sans-serif;
 }
-/*.reveal{
-    position: relative;
-    transform: translateY(144px);
-    opacity: 0;
-    transition: 1s all ease;
-}
-    .reveal.active{
-        transform: translateY(0);
-        opacity: 1;
-    }
-*/
-.header-main{
-    padding: 5px 0 10px  0;
-    background-color:#ffffffa1;
+
+.header-main {
+    padding: 5px 0 10px 0;
+    background-color: #e3dadae9;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: sticky;
     top: 0;
-    z-index: 2;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    border-bottom: 0.2px solid rgb(206, 201, 201);
 }
 
-
-.botoes{
+.botoes {
     display: flex;
     gap: 50px;
+    align-items: center;
 }
 
 .botao {
     text-decoration: none;
     cursor: pointer;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-img{
+.header-main img {
     height: 50px;
 }
-.icons{
+.icons {
     display: flex;
     gap: 60px;
 }
 
-#icon1, #icon2, #icon3{
+#icon1,
+#icon2,
+#icon3 {
     cursor: pointer;
     text-decoration: none;
     color: black;
@@ -154,7 +149,7 @@ color: #000000;
 .fotter-main {
     border-radius: 120px 0 0 0;
     margin-top: 25px;
-    background-color: #fffdf0;
+    background-color: #03062C;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -170,9 +165,10 @@ color: #000000;
 
 .botao-rodape {
     padding: 10px;
+    font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 10px;
 }
 
@@ -193,7 +189,7 @@ color: #000000;
 }
 
 .convidativo img {
-    width: 120px;
+    width: 200px;
     height: auto;
     border-radius: 100%;
     margin-top: 20px;
@@ -202,17 +198,22 @@ color: #000000;
 
 .frase-convidativo {
     margin-left: 30px;
+    color: white;
     grid-area: texto;
     font-size: 25px;
     font-family: "Poppins";
     display: flex;
     flex-direction: column;
 }
+#frase-venhafazer{
+    font-size: 40px;
+}
 
 #frase-suascompras {
-    margin-top: -60px;
+    margin-top: -70px;
     font-family: "raleway";
     letter-spacing: 08px;
+    font-size: 30px;
 }
 .redes {
     grid-area: redes;
@@ -220,7 +221,7 @@ color: #000000;
     margin-top: -px;
 }
 .redes a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 30px;
     padding: 20px;
@@ -228,23 +229,58 @@ color: #000000;
     font-weight: bold;
 }
 
-#icon-r1 {
-    color: #1400ff;
-}
-#icon-r2 {
-    color: #ff507a;
-}
-
-#icon-r3 {
-    color: #2fad34;
-}
-
-#icon-r4 {
-    color: #e37918;
-}
-
 #copy {
     color: rgb(180, 179, 179);
     font-family: "Raleway", sans-serif;
-    margin-top: 30px;
+}
+
+@media screen and (max-width:450px){
+    .botoes,
+    .icons {
+        display: none;
+    }
+
+    .header-main img {
+        height: 40px;
+    }
+
+
+
+
+
+
+
+
+
+    #logo-rodape{
+        width: 50%;
+        height: auto;
+    }
+    .botao-rodape{
+        font-size: 10px;
+    }
+
+    .convidativo img{
+        width: 100%;
+        height: auto;
+    }
+    .frase-convidativo{
+        display: flex;
+        justify-content: left;
+        margin-bottom: 0;
+    }
+    #frase-venhafazer{
+        font-size: 18px;
+    }
+    #frase-suascompras{
+        font-size: 15px;
+        margin-top: -30px;
+    }
+    .redes a{
+        font-size: 20px;
+    }
+    #copy{
+        font-size: 10px;
+    }
+
 }
