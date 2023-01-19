@@ -87,10 +87,6 @@ body{
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
 }
-.botoes-conato{
-    display: flex;
-    gap: 20px;
-}
 .botao-contato{
     background-color: white;
     color: #182369;
@@ -224,8 +220,47 @@ body{
     .header-main img {
         height: 40px;
     }
-
-
+    .section-contato{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contato-imagem img{
+        width: 180px;
+        height: auto;
+    }
+    .contato-formas{
+        gap: 0;
+        margin-top: 10px;
+    }
+    .sac{
+        margin-top: 20px;
+        width: 100%
+    }
+    .contato-formas h1{
+        font-size: 16px;
+    }
+    .sac h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    }
+    .sac p{
+        font-size: 8px;
+    }
+    .botao-contato{
+        width: 20vw;
+        height: 20px;
+    }
+    .botao-contato p{
+        font-size: 10px;
+        margin: 0;
+    }
+.redes-contato a{
+    font-size: 15px;
+    margin-top: -10px;
+    margin: 10px;
+}
 
 
 
