@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@100;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100&family=Raleway:wght@100;500;700&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -49,102 +49,84 @@ body{
     color: black;
     font-size: 25px;
 }
-.contato{
-    margin: 30px;
-    display: grid;
-    column-gap: 30px;;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "informacao ilustra";
-}
-.contato-informacao{
-
-    grid-area: informacao;
+.section-contato{
     display: flex;
-    flex-direction: column;
-    gap: 300px;
-    align-items: center;
-}
-.title-contato{
-font-family: 'Poppins', sans-serif;
-position: absolute;
-z-index: 1;
-left: 200px;
-font-size: 35px;
-width: 30%;
-line-height: 60px;
-color: #000000;
-}
-
-.circulomaior{
-    background-color: #1400ff;
-    position: absolute;
-    left: 150px;
-    width: 230px;
-    height: 230px;
-    border-radius: 50%;
-}
-
-.circulomenor{
-    width: 150px;
-    height: 150px;
-    background-color: #f6ae03;
-    position: absolute;
-    left: -35px;
-    top: 200px;
-    border-radius: 50%;
-}
-.contato-sac{
-font-family: 'Raleway';
-background-color:#02005a ;
-box-shadow: -1px 36px 0px -13px rgba(64, 62, 158, 0.87);
-border-radius: 10px;
-text-align: center;
-width: 50%;
-padding: 0 25px;
-color: white;
-margin-top: 25px;
-}
-
-.contato-botao{
-    margin-top: -220px;
-    display: flex;
-    flex-direction: column;
+    color: white;
     justify-content: center;
     align-items: center;
+    background-color: #182369;
 }
-.contato-email, .contato-telefone{
-    background-color: #f6ae03;
-    text-align: left;
-    margin: 20px;
-    border-radius: 20px;
-    display: flex;
-    width: 400px;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 18px;
-    font-family: "raleway";
-}
-
-.contato-telefone a, .contato-email a{
-text-decoration: none;
-color: #000000;
-}
-.title-contato-sac{
-    color: white;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-}
-
-.contato-ilustracao{
-    grid-area: ilustra;
+.contato-formas{
+    width: 40%;
+    gap: 20px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
-    align-items: center;
+    
 }
-.contato-ilustracao img{
-    width: 600px;
-    height: auto;
+.contato-formas h1{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.sac{
+   background-color: white; 
+   color: #182369;
+   margin-top: 40px;
+   width: 30vw;
+   box-shadow: 11px 9px 1px 0px rgba(13, 29, 92);
+}
+.sac h3, .sac p{
+    text-align: center;
+    margin: 5px;
+}
+.sac h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.sac p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.botoes-conato{
+    display: flex;
+    gap: 20px;
+}
+.botao-contato{
+    background-color: white;
+    color: #182369;
+    box-shadow: 11px 9px 1px 0px rgb(13, 29, 92);
+    margin: 20px 0;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    text-align: center;
+}
+.botao-contato p{
+    font-family:'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.contato-imagem{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.contato-imagem img{
+    width: 60%;
+    margin-bottom: -6px;
+}
+.redes-contato{
+    display: flex;
+    gap: 20px;
+}
+.redes-contato a{
+    margin-top: 10px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
 }
 .fotter-main {
     border-radius: 120px 0 0 0;
@@ -218,7 +200,6 @@ color: #000000;
 .redes {
     grid-area: redes;
     margin-left: 10px;
-    margin-top: -px;
 }
 .redes a {
     color: rgb(255, 255, 255);
