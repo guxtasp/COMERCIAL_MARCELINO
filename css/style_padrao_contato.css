@@ -261,14 +261,11 @@ body{
     margin-top: -10px;
     margin: 10px;
 }
-
-
-
-
-
-
-
-    #logo-rodape{
+.fotter-main{
+    position: fixed;
+    bottom: 0;
+}
+#logo-rodape{
         width: 50%;
         height: auto;
     }
