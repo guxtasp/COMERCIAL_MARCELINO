@@ -297,7 +297,7 @@ img {
     width: 100%;
 }
 #small-text{
-    font-size: 8px;
+    font-size: 9px;
 }
 
 #title-text-departa{
@@ -305,7 +305,9 @@ img {
     text-align: center;
 }
 #descricao-text-departa{
-    font-size: 8px;
+    margin-top: 2px;
+    font-size: 10px;
+    text-align: center;
 }
 
 
