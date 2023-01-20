@@ -6,7 +6,7 @@ body {
     background-color: white;
 }
 
-.header-main {
+#header-main {
     padding: 5px 0 10px 0;
     background-color: #e3dadae9;
     display: flex;
@@ -25,6 +25,9 @@ body {
     gap: 50px;
     align-items: center;
 }
+#btn-mobile {
+    display: none;
+}
 
 .botao {
     text-decoration: none;
@@ -33,7 +36,7 @@ body {
     font-size: 15px;
 }
 
-.header-main img {
+#header-main img {
     height: 50px;
 }
 .icons {
@@ -102,7 +105,7 @@ body {
     width: 30%;
     height: 150px;
     border-radius: 30px;
-    background-color: #03062C;
+    background-color: #03062c;
 }
 .promodestaque {
     display: flex;
@@ -132,7 +135,8 @@ body {
     margin-bottom: -3px;
 }
 
-.v-normal, .descricao-destaca{
+.v-normal,
+.descricao-destaca {
     font-size: 20px;
 }
 .v-promocional {
@@ -150,7 +154,7 @@ body {
 }
 
 .promocao-card {
-    background-color: #03062C;
+    background-color: #03062c;
     width: 20vw;
     height: 30vh;
 }
@@ -219,7 +223,7 @@ a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: #03062C;
+    color: #03062c;
 }
 .orcamento h2 {
     font-size: 40px;
@@ -248,10 +252,10 @@ a {
     text-transform: uppercase;
     border-radius: 20px;
     color: white;
-    background-color: #82DC23;
+    background-color: #82dc23;
     border: none;
 }
-.orcamento button p{
+.orcamento button p {
     margin: 0;
 }
 .orcamento button:hover {
@@ -330,7 +334,6 @@ a {
     }
 }
 .section-apresentacao {
-    margin-bottom: 00px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -348,29 +351,44 @@ a {
         "f1 f2 f3"
         "f1 f4 f5"
         "f1 f4 f6";
+    grid-template-columns: 40% 30% 1fr;
     row-gap: 1em;
     column-gap: 1em;
 }
 .foto {
-    background-color: #03062C;
+    background-color: #03062c;
 }
 #ft1 {
     grid-area: f1;
+    background-image: url("../img/foto1.jpg");
+    background-size: cover;
 }
 #ft2 {
     grid-area: f2;
+    background-image: url("../img/foto2.jpg");
+    background-size: cover;
 }
 #ft3 {
     grid-area: f3;
+
+    background-image: url("../img/foto5.jpg");
+    background-size: cover;
 }
 #ft4 {
     grid-area: f4;
+    background-image: url("../img/foto3.jpg");
+    background-size: cover;
 }
 #ft5 {
     grid-area: f5;
+
+    background-image: url("../img/foto4.jpg");
+    background-size: cover;
 }
 #ft6 {
     grid-area: f6;
+    background-image: url("../img/foto6.jpg");
+    background-size: cover;
 }
 
 .section-apresentacao button {
@@ -399,7 +417,6 @@ a {
 .apresentacao h2 {
     font-size: 40px;
     font-family: "Poppins", sans-serif;
-
 }
 
 .apresentacao p {
@@ -430,7 +447,7 @@ a {
 .fotter-main {
     border-radius: 120px 0 0 0;
     margin-top: 25px;
-    background-color: #03062C;
+    background-color: #03062c;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -443,7 +460,7 @@ a {
     height: auto;
     margin-bottom: 20px;
 }
-.botoes-rodape{
+.botoes-rodape {
     display: flex;
 }
 
@@ -489,7 +506,7 @@ a {
     display: flex;
     flex-direction: column;
 }
-#frase-venhafazer{
+#frase-venhafazer {
     font-size: 40px;
 }
 
@@ -517,22 +534,29 @@ a {
 #copy {
     color: rgb(180, 179, 179);
     font-family: "Raleway", sans-serif;
-
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .botoes,
     .icons {
         display: none;
     }
-
-    .header-main img {
+    #header-main {
+        display: flex;
+        justify-content: space-around;
+    }
+    #header-main img {
         height: 40px;
+        margin: auto;
     }
 
     .section-campanha img {
         width: 100%;
         height: auto;
+    }
+    #btn-mobile {
+        display: block;
+        margin: 0;
     }
     .section-informacoes {
         margin: 20px 50px 20px 50px;
@@ -555,45 +579,47 @@ a {
     .section-promocao {
         width: 100%;
     }
-    .promos-destaques{
+    .promos-destaques {
         margin: 10px;
     }
-    .promodestaque{
+    .promodestaque {
         gap: 6px;
     }
-    .promodestaque img{
+    .promodestaque img {
         width: 40%;
         height: auto;
     }
-    .promo-destaque-story{
+    .promo-destaque-story {
         width: 25%;
         height: 80px;
         border-radius: 20px;
     }
-    .tittle-destaca, .v-promocional {
+    .tittle-destaca,
+    .v-promocional {
         font-size: 15px;
         margin: 0;
         text-align: center;
     }
-    .descricao-destaca, .v-normal{
+    .descricao-destaca,
+    .v-normal {
         font-size: 10px;
     }
-    .v-promocional{
+    .v-promocional {
         margin-top: -15px;
     }
-    .promocao-card{
+    .promocao-card {
         width: 40vw;
         gap: 5px;
         height: 20vh;
     }
-    .section-departamento{
+    .section-departamento {
         width: 100%;
     }
-    #title-departamento{
+    #title-departamento {
         font-size: 20px;
         margin-top: 10px;
     }
-    .departamentos{
+    .departamentos {
         margin: 5px;
         width: 98%;
         display: flex;
@@ -601,7 +627,7 @@ a {
         justify-content: center;
         gap: 5px;
     }
-    .departamento{
+    .departamento {
         width: 50px;
         padding: 0px 20px 20px 20px;
     }
@@ -611,29 +637,29 @@ a {
         margin: -20px 0 0 0;
         text-align: center;
     }
-    
-    .circle-departamento{
+
+    .circle-departamento {
         width: 50px;
         height: 50px;
     }
-    .icone img{
+    .icone img {
         width: 20px;
     }
-    .orcamento{
+    .orcamento {
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .orcamento h2{
+    .orcamento h2 {
         font-size: 20px;
     }
-    .orcamento p{
+    .orcamento p {
         font-size: 15px;
     }
-    .orcamento img{
+    .orcamento img {
         margin: 0;
     }
-    .orcamento button{
+    .orcamento button {
         width: 100%;
         height: 40px;
         font-size: 12px;
@@ -642,77 +668,78 @@ a {
         align-items: center;
     }
 
-    .orcamento button p{
+    .orcamento button p {
         margin: 0 10px;
     }
-    .section-marcas h2{
+    .section-marcas h2 {
         font-size: 20px;
     }
 
-    .marquee figure{
+    .marquee figure {
         max-width: 100px;
     }
-    .marquee{
+    .marquee {
         animation: marqueescroll 10s linear 0s infinite;
     }
-    .section-apresentacao{
+    .section-apresentacao {
         width: 100%;
     }
-    .apresentacao h2{
+    .apresentacao h2 {
         font-size: 20px;
     }
-    .apresentacao p{
+    .apresentacao p {
         font-size: 16px;
         margin-top: -5px;
     }
-    .fotos{
+    .fotos {
         height: 30vh;
+
     }
-    .section-apresentacao button{
+    .section-apresentacao button {
         font-size: 12px;
         width: 80%;
         margin: 0;
     }
-    
-    .section-localiza h2, .section-localiza i{
+
+    .section-localiza h2,
+    .section-localiza i {
         font-size: 20px;
         padding: 2px;
     }
 
-    #logo-rodape{
+    #logo-rodape {
         width: 50%;
         height: auto;
         margin: 0;
     }
-    .botao-rodape{
+    .botao-rodape {
         font-size: 8px;
         gap: 0;
     }
 
-    .convidativo img{
+    .convidativo img {
         width: 100px;
         height: auto;
         margin-left: 10px;
         margin: 0;
     }
-    .frase-convidativo{
+    .frase-convidativo {
         display: flex;
         justify-content: left;
         margin-bottom: 0;
     }
-    #frase-venhafazer{
+    #frase-venhafazer {
         font-size: 18px;
     }
-    #frase-suascompras{
+    #frase-suascompras {
         font-size: 15px;
         margin-top: -30px;
     }
-    .redes a{
-        font-size:12px;
+    .redes a {
+        font-size: 12px;
         gap: 0;
     }
-    #copy{
+    #copy {
         font-size: 10px;
     }
-
 }
