@@ -346,6 +346,12 @@ justify-content: center;
     }
     .categorias-section-departamento{
         width: 18%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .categorias-section-departamento p{
+        font-size: 10px;
     }
     .categorias-section-departamento img{
         width: 100%;

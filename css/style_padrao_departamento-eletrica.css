@@ -132,7 +132,20 @@ flex-wrap: wrap;
 width: 100%;
 justify-content: center;
 }
+.categorias-section-departamento{
+    display: flex;
+    align-items: center;
+    color: #03062C;
+    font-weight: bold;
 
+}
+.categorias-section-departamento p:hover{
+    background-color: #353855;
+    transition-property: background-color;
+    transition: all 0.4s;
+    cursor: pointer;
+    padding: 10px;
+}
 .categorias-section-departamento img{
     width: 200px;
     border-radius: 20px;
@@ -343,9 +356,16 @@ justify-content: center;
     }
     .categorias-unidas{
         gap: 3px;
+
     }
     .categorias-section-departamento{
         width: 18%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .categorias-section-departamento p{
+        font-size: 10px;
     }
     .categorias-section-departamento img{
         width: 100%;
