@@ -443,6 +443,9 @@ a {
     height: auto;
     margin-bottom: 20px;
 }
+.botoes-rodape{
+    display: flex;
+}
 
 .botao-rodape {
     padding: 10px;
@@ -499,7 +502,8 @@ a {
 .redes {
     grid-area: redes;
     margin-left: 10px;
-    margin-top: -px;
+    display: flex;
+    gap: 2px;
 }
 .redes a {
     color: rgb(255, 255, 255);
@@ -528,8 +532,7 @@ a {
 
     .section-campanha img {
         width: 100%;
-        height: 200px;
-        object-fit: cover;
+        height: auto;
     }
     .section-informacoes {
         margin: 20px 50px 20px 50px;
@@ -592,10 +595,10 @@ a {
     }
     .departamentos{
         margin: 5px;
-        width: 100%;
+        width: 98%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         gap: 5px;
     }
     .departamento{
@@ -670,6 +673,7 @@ a {
         width: 80%;
         margin: 0;
     }
+    
     .section-localiza h2, .section-localiza i{
         font-size: 20px;
         padding: 2px;
@@ -678,14 +682,18 @@ a {
     #logo-rodape{
         width: 50%;
         height: auto;
+        margin: 0;
     }
     .botao-rodape{
-        font-size: 10px;
+        font-size: 8px;
+        gap: 0;
     }
 
     .convidativo img{
-        width: 100%;
+        width: 100px;
         height: auto;
+        margin-left: 10px;
+        margin: 0;
     }
     .frase-convidativo{
         display: flex;
@@ -700,7 +708,11 @@ a {
         margin-top: -30px;
     }
     .redes a{
-        font-size: 20px;
+        font-size:12px;
+        gap: 0;
+    }
+    #copy{
+        font-size: 10px;
     }
 
 }
