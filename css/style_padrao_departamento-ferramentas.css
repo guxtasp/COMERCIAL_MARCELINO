@@ -68,7 +68,7 @@ img {
 .representacao-departamento {
     display: flex;
     margin-left: 20px;
-    background-color: #FFE924;
+    background-color: #353855;
     flex-direction: column;
     width: 100px;
     align-items: center;
