@@ -282,3 +282,72 @@ img {
     font-family: "Raleway", sans-serif;
     margin-top: 30px;
 }
+
+@media screen and (max-width:450px){
+    .botoes,
+    .icons {
+        display: none;
+    }
+
+    .header-main img {
+        height: 40px;
+    }
+
+.section{
+    width: 100%;
+}
+#small-text{
+    font-size: 8px;
+}
+
+#title-text-departa{
+    font-size: 12px;
+    text-align: center;
+}
+#descricao-text-departa{
+    font-size: 8px;
+}
+
+
+
+
+
+
+
+
+    .fotter-main{
+        position: fixed;
+        bottom: 0;
+    }
+    #logo-rodape{
+            width: 50%;
+            height: auto;
+        }
+        .botao-rodape{
+            font-size: 10px;
+        }
+    
+        .convidativo img{
+            width: 100%;
+            height: auto;
+        }
+        .frase-convidativo{
+            display: flex;
+            justify-content: left;
+            margin-bottom: 0;
+        }
+        #frase-venhafazer{
+            font-size: 18px;
+        }
+        #frase-suascompras{
+            font-size: 15px;
+            margin-top: -30px;
+        }
+        .redes a{
+            font-size: 20px;
+        }
+        #copy{
+            font-size: 10px;
+        }
+    
+    }
