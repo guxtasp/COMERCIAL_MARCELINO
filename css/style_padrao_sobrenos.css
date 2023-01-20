@@ -69,7 +69,7 @@ img {
 
 #small-text{
     font-weight: bold;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
     color: #f6ae03;
     font-weight: 400;
     margin: 0;
@@ -78,16 +78,18 @@ img {
     text-transform: uppercase;
     font-family: 'Poppins', sans serif;
     margin-top: 0;
+    font-size: 40px;
 }
 
 #descricao-text-departa{
     margin: 15px;
     color: #000000;
     margin-top: -15px;
+    font-size: 25px;
 }
 
 .departamentos-historias img{
-    width: 500px;
+    width: 800px;
     height: auto;
 }
 .video {
@@ -298,6 +300,7 @@ img {
 }
 #small-text{
     font-size: 9px;
+    letter-spacing: 5px;
 }
 
 #title-text-departa{
@@ -309,8 +312,9 @@ img {
     font-size: 10px;
     text-align: center;
 }
-
-
+.departamentos-historias img{
+    width: 100%;
+}
 
 
 
