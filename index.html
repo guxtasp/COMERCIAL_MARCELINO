@@ -14,6 +14,26 @@
 
 <body>
     <!--MENU (CABECALHO) DESKTOP -->
+    <header id="header">
+        <a class="links-header" id="logo" href=""><img src="img/logo.png" alt=""></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li class="links-header"><a href="/">Sobre nós</a></li>
+                <li class="links-header"><a href="/">Contato</a></li>
+                <li class="links-header"><a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i id="icon1"
+                            class="fa-brands fa-facebook"></i></a></li>
+                <li class="links-header"><a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i id="icon2"
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li class="links-header"><a href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento."
+                        target="_blank"> <i id="icon3" class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="./main-menu.js"></script>
     <header id="header-main">
         <div class="botoes">
             <a class="botao" href="historia.html">Sobre nós</a> <!--BOTÃO SOBRE NÓS-->
@@ -29,8 +49,8 @@
                     class="fa-brands fa-instagram"></i></a><!--ICONE INSRA-->
             <a href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento." target="_blank"> <i id="icon3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
         </div>
-
     </header>
+    
     <section class="section-campanha"> <!--BANNER CENTRAL DO SITE-->
         <source media="(max-width: 450px)" srcset="img/bannercentral_mobile.png" type="image/png">
         <img src="img/bannercentral.png" alt="">
@@ -462,7 +482,7 @@
         </div>
         <p id="copy">Copyright &copy; Comercial Marcelino</p> <!--COPYRIGHT - RODAPÉ-->
     </footer>
-    <script  src="js/app-menu.js"></script>
+    <script  src="js/main-menu.js"></script>
 </body>
 
 </html>

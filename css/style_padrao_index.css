@@ -19,6 +19,31 @@ body {
     text-transform: uppercase;
     border-bottom: 0.2px solid rgb(206, 201, 201);
 }
+ul{
+    margin: 0;
+}
+#header {
+    display: none;
+  }
+#logo img{
+    width: 150px;
+}
+  #menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  #menu a {
+    display: block;
+    padding: 0.5rem;
+  }
+  
+  #btn-mobile {
+    display: none;
+  }
+  
 
 .botoes {
     display: flex;
@@ -52,6 +77,7 @@ body {
     color: black;
     font-size: 25px;
 }
+
 .section-informacoes {
     margin: 60px;
     display: flex;
@@ -64,12 +90,15 @@ body {
     width: 200px;
     height: auto;
 }
+#info1 {
+    width: 150px;
+}
 #info2 {
-    width: 260px;
+    width: 180px;
 }
 
 #info3 {
-    width: 250px;
+    width: 160px;
 }
 .section-campanha img {
     height: auto;
@@ -109,13 +138,14 @@ body {
 }
 .promodestaque {
     display: flex;
+    align-items: center;
     width: 100%;
     justify-content: center;
     margin: auto;
     gap: 40px;
 }
 .promodestaque img {
-    height: 400px;
+    height: 250px;
     width: auto;
     border-radius: 20px;
 }
@@ -215,6 +245,7 @@ a {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     margin: 10px;
+    text-align: center;
 }
 .orcamento {
     margin-top: 40px;
@@ -536,28 +567,85 @@ a {
     font-family: "Raleway", sans-serif;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .botoes,
     .icons {
         display: none;
     }
     #header-main {
+        display: none;
+    }
+    #header{
         display: flex;
-        justify-content: space-around;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        height: 70px;
+        padding: 1rem;
+        background: #e3dadae9;
     }
-    #header-main img {
-        height: 40px;
-        margin: auto;
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #e7e7e7;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
     }
-
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    #btn-mobile {
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+    }
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
     .section-campanha img {
         width: 100%;
         height: auto;
     }
-    #btn-mobile {
-        display: block;
-        margin: 0;
-    }
+
     .section-informacoes {
         margin: 20px 50px 20px 50px;
         display: flex;
@@ -566,14 +654,14 @@ a {
     #info1,
     #info2,
     #info3 {
-        width: 25%;
+        width: 23%;
     }
 
     #info2 {
-        width: 30%;
+        width: 28%;
     }
     #info3 {
-        width: 28%;
+        width: 26%;
     }
 
     .section-promocao {
@@ -633,7 +721,6 @@ a {
     }
     .name-departamento {
         font-size: 10px;
-
         margin: -20px 0 0 0;
         text-align: center;
     }
@@ -693,7 +780,6 @@ a {
     }
     .fotos {
         height: 30vh;
-
     }
     .section-apresentacao button {
         font-size: 12px;
