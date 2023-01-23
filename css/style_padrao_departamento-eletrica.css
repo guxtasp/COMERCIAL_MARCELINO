@@ -63,6 +63,7 @@ img {
     justify-content: left;
     font-size: 30px;
     gap: 20px;
+    color: white;
     margin-top: -90px;
 }
 .representacao-departamento {
@@ -204,6 +205,7 @@ justify-content: center;
 .fotter-main {
     border-radius: 120px 0 0 0;
     margin-top: 25px;
+    height: 250px;
     background-color: #03062C;
     padding: 30px;
     display: flex;
@@ -213,9 +215,9 @@ justify-content: center;
 }
 
 #logo-rodape {
-    width: 200px;
+    width: 150px;
     height: auto;
-    margin-bottom: 20px;
+
 }
 .botoes-rodape{
     display: flex;
@@ -223,11 +225,11 @@ justify-content: center;
 
 .botao-rodape {
     padding: 10px;
-    font-size: 20px;
+    font-size: 10px;
     text-transform: uppercase;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    margin: 10px;
+
 }
 
 .botao-rodape:hover {
@@ -247,7 +249,7 @@ justify-content: center;
 }
 
 .convidativo img {
-    width: 200px;
+    width: 150px;
     height: auto;
     border-radius: 100%;
     margin-top: 20px;
@@ -258,32 +260,32 @@ justify-content: center;
     margin-left: 30px;
     color: white;
     grid-area: texto;
-    font-size: 25px;
+    font-size: 18px;
     font-family: "Poppins";
     display: flex;
     flex-direction: column;
 }
 #frase-venhafazer{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #frase-suascompras {
-    margin-top: -70px;
+    margin-top: -60px;
     font-family: "raleway";
     letter-spacing: 08px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .redes {
     grid-area: redes;
-    margin-left: 10px;
+    margin-top: -30px;
+    margin-left: 30px;
     display: flex;
-    gap: 2px;
+    gap: 40px;
 }
 .redes a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 30px;
-    padding: 20px;
     cursor: pointer;
     font-weight: bold;
 }
@@ -291,6 +293,7 @@ justify-content: center;
 #copy {
     color: rgb(180, 179, 179);
     font-family: "Raleway", sans-serif;
+    font-size: 15px;
 
 }
 

@@ -240,6 +240,7 @@ ul {
 .fotter-main {
     border-radius: 120px 0 0 0;
     margin-top: 25px;
+    height: 250px;
     background-color: #03062C;
     padding: 30px;
     display: flex;
@@ -249,9 +250,9 @@ ul {
 }
 
 #logo-rodape {
-    width: 200px;
+    width: 150px;
     height: auto;
-    margin-bottom: 20px;
+
 }
 .botoes-rodape{
     display: flex;
@@ -259,11 +260,11 @@ ul {
 
 .botao-rodape {
     padding: 10px;
-    font-size: 20px;
+    font-size: 10px;
     text-transform: uppercase;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    margin: 10px;
+
 }
 
 .botao-rodape:hover {
@@ -283,7 +284,7 @@ ul {
 }
 
 .convidativo img {
-    width: 200px;
+    width: 150px;
     height: auto;
     border-radius: 100%;
     margin-top: 20px;
@@ -294,32 +295,32 @@ ul {
     margin-left: 30px;
     color: white;
     grid-area: texto;
-    font-size: 25px;
+    font-size: 18px;
     font-family: "Poppins";
     display: flex;
     flex-direction: column;
 }
 #frase-venhafazer{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #frase-suascompras {
-    margin-top: -70px;
+    margin-top: -60px;
     font-family: "raleway";
     letter-spacing: 08px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .redes {
     grid-area: redes;
-    margin-left: 10px;
+    margin-top: -30px;
+    margin-left: 30px;
     display: flex;
-    gap: 2px;
+    gap: 40px;
 }
 .redes a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 30px;
-    padding: 20px;
     cursor: pointer;
     font-weight: bold;
 }
@@ -327,8 +328,10 @@ ul {
 #copy {
     color: rgb(180, 179, 179);
     font-family: "Raleway", sans-serif;
+    font-size: 15px;
 
 }
+
 
 @media screen and (max-width: 600px){
     .botoes,
@@ -340,6 +343,8 @@ ul {
     }
     #header {
         display: flex;
+        position: sticky;
+        top: 0;
         align-items: center;
         justify-content: space-between;
         box-sizing: border-box;
@@ -475,40 +480,47 @@ ul {
     font-size: 10px;
 }
 
-   
-#logo-rodape{
-    width: 50%;
+.fotter-main{
+    height: 150px;
+}
+
+#logo-rodape {
+    width: 30%;
     height: auto;
     margin: 0;
 }
-.botao-rodape{
+.botao-rodape {
     font-size: 8px;
     gap: 0;
 }
 
-.convidativo img{
+.convidativo img {
     width: 100px;
     height: auto;
     margin-left: 10px;
     margin: 0;
 }
-.frase-convidativo{
+.frase-convidativo {
     display: flex;
     justify-content: left;
     margin-bottom: 0;
 }
-#frase-venhafazer{
+#frase-venhafazer {
     font-size: 18px;
 }
-#frase-suascompras{
-    font-size: 15px;
+#frase-suascompras {
+    font-size: 10px;
     margin-top: -30px;
 }
-.redes a{
-    font-size:12px;
-    gap: 0;
+.redes{
+    display: flex;
+    gap: 40px;
 }
-#copy{
+.redes a {
+    font-size: 14px;
+    margin-top: 15px;
+}
+#copy {
     font-size: 10px;
 }
     

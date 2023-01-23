@@ -1,12 +1,11 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100&family=Raleway:wght@100;500;700&display=swap');
-body{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100&family=Raleway:wght@100;500;700&display=swap");
+body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-.header-main {
+#header-main {
     padding: 5px 0 10px 0;
     background-color: #e3dadae9;
     display: flex;
@@ -18,6 +17,65 @@ body{
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     border-bottom: 0.2px solid rgb(206, 201, 201);
+}
+ul {
+    margin: 0;
+}
+#header {
+    display: none;
+}
+#logo img {
+    width: 150px;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    font-family: "Raleway", sans-serif;
+}
+
+#menu a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+.botoes {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+#btn-mobile {
+    display: none;
+}
+
+.botao {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+}
+
+#header-main img {
+    height: 50px;
+}
+.icons {
+    display: flex;
+    gap: 60px;
+}
+
+#icon1,
+#icon2,
+#icon3 {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
 }
 
 .botoes {
@@ -49,47 +107,51 @@ body{
     color: black;
     font-size: 25px;
 }
-.section-contato{
+.section-contato {
     display: flex;
     color: white;
     justify-content: center;
     align-items: center;
     background-color: #182369;
 }
-.contato-formas{
+.contato-formas {
     width: 40%;
     gap: 20px;
     display: flex;
     flex-direction: column;
-    
 }
-.contato-formas h1{
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
+.contato-formas h1 {
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
     margin: 0;
 }
-.sac{
-   background-color: white; 
-   color: #182369;
-   margin-top: 40px;
-   width: 30vw;
-   box-shadow: 11px 9px 1px 0px rgba(13, 29, 92);
+.sac {
+    background-color: white;
+    color: #182369;
+    margin-top: 40px;
+    width: 30vw;
+    box-shadow: 11px 9px 1px 0px rgba(13, 29, 92);
 }
-.sac h3, .sac p{
+.sac h3,
+.sac p {
     text-align: center;
     margin: 5px;
 }
-.sac h3{
-    font-family: 'Poppins', sans-serif;
+.sac h3 {
+    font-family: "Poppins", sans-serif;
     font-size: 25px;
+    margin: 0;
 }
-.sac p{
+.sac p, .sac a {
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-}
-.botao-contato{
-    background-color: white;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
     color: #182369;
+
+}
+
+.botao-contato {
+    background-color: white;
     box-shadow: 11px 9px 1px 0px rgb(13, 29, 92);
     margin: 20px 0;
     width: 15vw;
@@ -99,26 +161,29 @@ body{
     height: 40px;
     text-align: center;
 }
-.botao-contato p{
-    font-family:'Poppins', sans-serif;
+.botao-contato  a {
+    font-family: "Poppins", sans-serif;
     font-size: 25px;
+    text-decoration: none;
+    color: #182369;
     font-weight: bold;
-
 }
-.contato-imagem{
-    width: 50%;
+.contato-imagem {
+    height: 50%;
+    margin-right: 0;
     display: flex;
     justify-content: center;
 }
-.contato-imagem img{
+.contato-imagem img {
     width: 60%;
     margin-bottom: -6px;
 }
-.redes-contato{
+.redes-contato {
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    margin: 50px 0;
 }
-.redes-contato a{
+.redes-contato a {
     margin-top: 10px;
     font-size: 40px;
     text-decoration: none;
@@ -127,7 +192,8 @@ body{
 .fotter-main {
     border-radius: 120px 0 0 0;
     margin-top: 25px;
-    background-color: #03062C;
+    height: 250px;
+    background-color: #03062c;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -136,18 +202,19 @@ body{
 }
 
 #logo-rodape {
-    width: 200px;
+    width: 150px;
     height: auto;
-    margin-bottom: 20px;
+}
+.botoes-rodape {
+    display: flex;
 }
 
 .botao-rodape {
     padding: 10px;
-    font-size: 20px;
+    font-size: 10px;
     text-transform: uppercase;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    margin: 10px;
 }
 
 .botao-rodape:hover {
@@ -167,7 +234,7 @@ body{
 }
 
 .convidativo img {
-    width: 200px;
+    width: 150px;
     height: auto;
     border-radius: 100%;
     margin-top: 20px;
@@ -178,30 +245,32 @@ body{
     margin-left: 30px;
     color: white;
     grid-area: texto;
-    font-size: 25px;
+    font-size: 18px;
     font-family: "Poppins";
     display: flex;
     flex-direction: column;
 }
-#frase-venhafazer{
-    font-size: 40px;
+#frase-venhafazer {
+    font-size: 30px;
 }
 
 #frase-suascompras {
-    margin-top: -70px;
+    margin-top: -60px;
     font-family: "raleway";
     letter-spacing: 08px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .redes {
     grid-area: redes;
-    margin-left: 10px;
+    margin-top: -30px;
+    margin-left: 30px;
+    display: flex;
+    gap: 40px;
 }
 .redes a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 30px;
-    padding: 20px;
     cursor: pointer;
     font-weight: bold;
 }
@@ -209,94 +278,170 @@ body{
 #copy {
     color: rgb(180, 179, 179);
     font-family: "Raleway", sans-serif;
+    font-size: 15px;
 }
 
-@media screen and (max-width:450px){
-    body{
-        background-color: #03062C;
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #03062c;
     }
     .botoes,
     .icons {
         display: none;
     }
 
-    .header-main img {
-        height: 40px;
+    #header-main {
+        display: none;
     }
-    .section-contato{
+    #header {
+        display: flex;
+        position: sticky;
+        top: 0;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        height: 70px;
+        padding: 1rem;
+        background: #e3dadae9;
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #e7e7e7;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    #btn-mobile {
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+    }
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    .section-contato {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .contato-imagem img{
+    .contato-imagem img {
         width: 180px;
         height: auto;
     }
-    .contato-formas{
+    .contato-formas {
         gap: 0;
         margin-top: 10px;
     }
-    .sac{
+    .sac {
         margin-top: 20px;
-        width: 100%
+        width: 100%;
     }
-    .contato-formas h1{
+    .contato-formas h1 {
         font-size: 16px;
     }
-    .sac h3{
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+    .sac h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
     }
-    .sac p{
+    .sac p {
         font-size: 8px;
     }
-    .botao-contato{
+    .botao-contato {
         width: 20vw;
         height: 20px;
     }
-    .botao-contato p{
+    .botao-contato p {
         font-size: 10px;
         margin: 0;
     }
-.redes-contato a{
-    font-size: 15px;
-    margin-top: -10px;
-    margin: 10px;
-}
-.fotter-main{
-    position: fixed;
-    bottom: 0;
-}
-#logo-rodape{
-        width: 50%;
-        height: auto;
+
+    .redes-contato a {
+        font-size: 15px;
+        margin-top: -10px;
     }
-    .botao-rodape{
-        font-size: 10px;
+    .fotter-main {
+        height: 150px;
     }
 
-    .convidativo img{
-        width: 100%;
+    #logo-rodape {
+        width: 30%;
         height: auto;
+        margin: 0;
     }
-    .frase-convidativo{
+    .botao-rodape {
+        font-size: 8px;
+        gap: 0;
+    }
+
+    .convidativo img {
+        width: 100px;
+        height: auto;
+        margin-left: 10px;
+        margin: 0;
+    }
+    .frase-convidativo {
         display: flex;
         justify-content: left;
         margin-bottom: 0;
     }
-    #frase-venhafazer{
+    #frase-venhafazer {
         font-size: 18px;
     }
-    #frase-suascompras{
-        font-size: 15px;
+    #frase-suascompras {
+        font-size: 10px;
         margin-top: -30px;
     }
-    .redes a{
-        font-size: 20px;
+    .redes {
+        display: flex;
+        gap: 40px;
     }
-    #copy{
+    .redes a {
+        font-size: 14px;
+    }
+    #copy {
         font-size: 10px;
     }
-
 }
