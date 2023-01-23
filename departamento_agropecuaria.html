@@ -6,14 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
-    <link rel="shortcut icon" type="imagem/x-icon" href="img/LOGO  COMARCE atual.png" />
+    <link rel="shortcut icon" href="img/CM.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style_padrao_departamento-agropecuaria.css">
     <title>COMERCIAL MARCELINO | AGROPECUÁRIA</title>
 </head>
 
 <body>
     <!--MENU (CABECALHO) DESKTOP -->
-    <header class="header-main">
+    <header id="header">
+        <a class="links-header" id="logo" href="index.html"><img src="img/logo.png" alt=""></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li class="links-header"><a href="historia.html">Sobre nós</a></li>
+                <li class="links-header"><a href="contato.html">Contato</a></li>
+                <li class="links-header"><a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i
+                            id="icon1" class="fa-brands fa-facebook"></i></a></li>
+                <li class="links-header"><a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i
+                            id="icon2" class="fa-brands fa-instagram"></i></a></li>
+                <li class="links-header"><a
+                        href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento."
+                        target="_blank"> <i id="icon3" class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="js/main-menu.js"></script>
+    <header id="header-main">
         <div class="botoes">
             <a class="botao" href="historia.html">Sobre nós</a> <!--BOTÃO SOBRE NÓS-->
             <a class="botao"
@@ -26,11 +47,16 @@
                     class="fa-brands fa-facebook"></i></a><!--ICONE FACE-->
             <a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i id="icon2"
                     class="fa-brands fa-instagram"></i></a><!--ICONE INSRA-->
-            <a href="#" target="_blank"> <i id="icon3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
+            <a href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento." target="_blank">
+                <i id="icon3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
         </div>
     </header>
     <section class="section-apresenta-departamento"> <!--BANNER EM ESTILO DO DEPARTAMENTO - ELETRICA-->
-        <img id="capa-departamento" src="img/provisorio.png" alt=""> <!--ANEXO(IMAGEM) - BANNER EM ESTILO DO DEPARTAMENTO - ELETRICA-->
+        <picture>
+            <source media="(max-width: 600px)" srcset="img/departamentos/eletrica/banner-mobile.png" type="image/png">
+            <img id="capa-departamento" src="img/departamentos/eletrica/banner-desktop.png" alt="">
+            <!--ANEXO(IMAGEM) - BANNER EM ESTILO DO DEPARTAMENTO - ELETRICA-->
+        </picture> 
         <div class="representa-departamento-completa">
         <div class="representacao-departamento">
             <img src="img/Tractor.png" alt=""><!--ANEXO(IMAGEM) - ÍCONE - ELETRICA-->
@@ -93,16 +119,15 @@
             <img src="img/homem_eletricista.jpg" alt=""> <!--DESENHO REPRESENTANDO CATEGORIA DE CADA DEPARTAMENTO-->
         </div>
         <div class="categorias-section-departamento">
-            <img src="img/homem_eletricista.jpg" alt=""> <!--DESENHO REPRESENTANDO CATEGORIA DE CADA DEPARTAMENTO-->
+            <img src="img/homem_eletricista.jpg" alt=""> 
+            <p>nome</p><!--DESENHO REPRESENTANDO CATEGORIA DE CADA DEPARTAMENTO-->
         </div>
         <div class="categorias-section-departamento">
             <img src="img/homem_eletricista.jpg" alt=""> <!--DESENHO REPRESENTANDO CATEGORIA DE CADA DEPARTAMENTO-->
         </div>
         <div class="categorias-section-departamento">
-            <img src="img/homem_eletricista.jpg" alt=""> <!--DESENHO REPRESENTANDO CATEGORIA DE CADA DEPARTAMENTO-->
-        </div>
-        <div class="categorias-section-departamento">
-            <img src="img/homem_eletricista.jpg" alt=""> <!--DESENHO REPRESENTANDO CATEGORIA DE CADA DEPARTAMENTO-->
+            <img src="img/homem_eletricista.jpg" alt=""> 
+            <p>nome</p><!--DESENHO REPRESENTANDO CATEGORIA DE CADA DEPARTAMENTO-->
         </div>
     </div>
     </section>
@@ -111,7 +136,8 @@
             <h2>Faça seu orçamento</h2> <!--TÍTULO DA SEÇÃO-->
             <p>Um dos nossos atendentes irá o atender</p><!--SUBTÍTULO DA SEÇÃO-->
             <img src="img/orcamento.png" alt=""> <!--IMAGEM SIMBOLIZANDO A AÇÃO-->
-            <a href="#"><button> <!--LINK DO BOTÃO-->
+            <a href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento."
+                target="_blank"><button> <!--LINK DO BOTÃO-->
                     <i class="fa-solid fa-greater-than"></i> <!--ÍCONE DO BOTÃO-->
                     Clique aqui <!--TEXTO DO BOTÃO-->
                 </button>
@@ -124,7 +150,9 @@
         <div class="botoes-rodape">
             <a class="botao-rodape" href="historia.html">Sobre nós</a> <!--BOTÃO - SOBRE NÓS - RODAPÉ-->
             <a class="botao-rodape" href="contato.html">Contato</a> <!--BOTÃO - CONTATO - RODAPÉ-->
-            <a class="botao-rodape" href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento.">ORÇAMENTO</a> <!--BOTÃO - ORÇAMENTO - RODAPÉ-->
+            <a class="botao-rodape"
+                href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento.">ORÇAMENTO</a>
+            <!--BOTÃO - ORÇAMENTO - RODAPÉ-->
         </div>
         <div class="convidativo">
             <img src="img/homem_eletricista.jpg" alt=""> <!--IMAGEM - RODAPÉ-->
@@ -141,7 +169,8 @@
                         class="fa-brands fa-facebook"></i></a><!--ICONE FACE-->
                 <a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i id="icon-r2"
                         class="fa-brands fa-instagram"></i></a><!--ICONE INSRA-->
-                <a href="#"> <i id="icon-r3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
+                        <a href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento."
+                        target="_blank"> <i id="icon-r3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
                 <a href="https://www.google.com/maps/place/COMERCIAL+MARCELINO+-+Av+Eng+Francisco+Tavola+n%C2%BA82+Email:+contato@comercialmarcelino.com+Bairro:+-+Cidade+Jardim,+Carinhanha+-+BA,+46445-000/@-14.296696,-43.767331,16z/data=!4m6!3m5!1s0x75a0268305aa073:0x744de766cfa9342f!8m2!3d-14.2966961!4d-43.7673314!16s%2Fg%2F11xfslx04?hl=pt-BR&gl=BR"
                     target="_blank"><i id="icon-r4" class="fa-sharp fa-solid fa-map"></i></a><!--ICONE MAPS-->
             </div>

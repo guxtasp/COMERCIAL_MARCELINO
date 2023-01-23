@@ -4,25 +4,54 @@ body {
     padding: 0;
     font-family: "Raleway", sans-serif;
 }
-
-.header-main {
+#header-main {
     padding: 5px 0 10px 0;
-    background-color: #ffffffdb;
+    background-color: #e3dadae9;
     display: flex;
+    z-index: 999;
     align-items: center;
     justify-content: space-around;
     position: sticky;
     top: 0;
-    z-index: 5;
+    width: 100%;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     border-bottom: 0.2px solid rgb(206, 201, 201);
+}
+ul {
+    margin: 0;
+}
+#header {
+    display: none;
+}
+#logo img {
+    width: 150px;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    font-family: "Raleway", sans-serif;
+}
+
+#menu a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+#btn-mobile {
+    display: none;
 }
 
 .botoes {
     display: flex;
     gap: 50px;
     align-items: center;
+}
+#btn-mobile {
+    display: none;
 }
 
 .botao {
@@ -32,7 +61,7 @@ body {
     font-size: 15px;
 }
 
-img {
+#header-main img {
     height: 50px;
 }
 .icons {
@@ -55,8 +84,7 @@ img {
 
 #capa-departamento {
     width: 100%;
-    height: 200px; 
-    object-fit: cover;
+    height: auto;
 }
 .representa-departamento-completa {
     display: flex;
@@ -64,6 +92,7 @@ img {
     justify-content: left;
     font-size: 30px;
     gap: 20px;
+    color: white;
     margin-top: -90px;
 }
 .representacao-departamento {
@@ -205,6 +234,7 @@ justify-content: center;
 .fotter-main {
     border-radius: 120px 0 0 0;
     margin-top: 25px;
+    height: 250px;
     background-color: #03062C;
     padding: 30px;
     display: flex;
@@ -214,9 +244,9 @@ justify-content: center;
 }
 
 #logo-rodape {
-    width: 200px;
+    width: 150px;
     height: auto;
-    margin-bottom: 20px;
+
 }
 .botoes-rodape{
     display: flex;
@@ -224,11 +254,11 @@ justify-content: center;
 
 .botao-rodape {
     padding: 10px;
-    font-size: 20px;
+    font-size: 10px;
     text-transform: uppercase;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    margin: 10px;
+
 }
 
 .botao-rodape:hover {
@@ -248,7 +278,7 @@ justify-content: center;
 }
 
 .convidativo img {
-    width: 200px;
+    width: 150px;
     height: auto;
     border-radius: 100%;
     margin-top: 20px;
@@ -259,32 +289,32 @@ justify-content: center;
     margin-left: 30px;
     color: white;
     grid-area: texto;
-    font-size: 25px;
+    font-size: 18px;
     font-family: "Poppins";
     display: flex;
     flex-direction: column;
 }
 #frase-venhafazer{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #frase-suascompras {
-    margin-top: -70px;
+    margin-top: -60px;
     font-family: "raleway";
     letter-spacing: 08px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .redes {
     grid-area: redes;
-    margin-left: 10px;
+    margin-top: -30px;
+    margin-left: 30px;
     display: flex;
-    gap: 2px;
+    gap: 40px;
 }
 .redes a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 30px;
-    padding: 20px;
     cursor: pointer;
     font-weight: bold;
 }
@@ -292,6 +322,7 @@ justify-content: center;
 #copy {
     color: rgb(180, 179, 179);
     font-family: "Raleway", sans-serif;
+    font-size: 15px;
 
 }
 
@@ -300,9 +331,77 @@ justify-content: center;
     .icons {
         display: none;
     }
-
-    .header-main img {
-        height: 40px;
+    #header-main {
+        display: none;
+    }
+    #header {
+        z-index: 999;
+        display: flex;
+        position: sticky;
+        top: 0;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        height: 70px;
+        padding: 1rem;
+        background: #e3dadae9;
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #e7e7e7;
+        transition: 0.6s;
+        z-index: 1000;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    }
+    #btn-mobile {
+        display: flex;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 0.5rem;
+    }
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: 0.3s;
+        position: relative;
+    }
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
     }
     #capa-departamento{
         width: 100%;
@@ -313,7 +412,7 @@ justify-content: center;
         height: 70px;
     }
     .representacao-departamento img{
-        width: 40px;
+        width: 50px;
     }
     .representa-departamento-completa{
         margin: 0;
@@ -403,41 +502,48 @@ justify-content: center;
         margin: 0 10px;
     }
 
-    #logo-rodape{
-        width: 50%;
+    .fotter-main{
+        height: 150px;
+    }
+
+    #logo-rodape {
+        width: 30%;
         height: auto;
         margin: 0;
     }
-    .botao-rodape{
+    .botao-rodape {
         font-size: 8px;
         gap: 0;
     }
 
-    .convidativo img{
+    .convidativo img {
         width: 100px;
         height: auto;
         margin-left: 10px;
         margin: 0;
     }
-    .frase-convidativo{
+    .frase-convidativo {
         display: flex;
         justify-content: left;
         margin-bottom: 0;
     }
-    #frase-venhafazer{
+    #frase-venhafazer {
         font-size: 18px;
     }
-    #frase-suascompras{
-        font-size: 15px;
+    #frase-suascompras {
+        font-size: 10px;
         margin-top: -30px;
     }
-    .redes a{
-        font-size:12px;
-        gap: 0;
+    .redes{
+        display: flex;
+        gap: 40px;
     }
-    #copy{
+    .redes a {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    #copy {
         font-size: 10px;
     }
-
 
 }
