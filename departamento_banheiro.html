@@ -13,35 +13,45 @@
 
 <body>
     <!--MENU (CABECALHO) DESKTOP -->
-    <header id="header">
-        <a class="links-header" id="logo" href="index.html"><img src="img/logo.png" alt=""></a>
+    <header id="header"><!--CABEÇALHO MOBILE-->
+        <a class="links-header" id="logo" href=""><img src="img/logo.png"
+                alt=""></a><!--LOGO NO CABEÇALHO MOBILE- EDITAVEL-->
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
                 aria-expanded="false">
                 <span id="hamburger"></span>
             </button>
-            <ul id="menu" role="menu">
+            <ul id="menu" role="menu"><!-- MENU NO CABEÇALHO MOBILE-->
+                <!--(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA ABAIXO, DEPOIS MUDE O NOME E O LINK) - EDITÁVEL-->
                 <li class="links-header"><a href="historia.html">Sobre nós</a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - HISTORIA-->
                 <li class="links-header"><a href="contato.html">Contato</a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - CONTATO-->
                 <li class="links-header"><a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i
                             id="icon1" class="fa-brands fa-facebook"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - FACEBOOK -->
                 <li class="links-header"><a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i
                             id="icon2" class="fa-brands fa-instagram"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - INSTAGRAM -->
                 <li class="links-header"><a
                         href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento."
                         target="_blank"> <i id="icon3" class="fa-brands fa-whatsapp"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - WHATSAPP -->
+
             </ul>
         </nav>
     </header>
-    <script src="js/main-menu.js"></script>
-    <header id="header-main">
-        <div class="botoes">
-            <a class="botao" href="historia.html">Sobre nós</a> <!--BOTÃO SOBRE NÓS-->
-            <a class="botao"
-                href="contato.html">Contato</a><!--CONTATO( CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA AO LADO, DEPOIS MUDE O NOME E O LINK)-->
+    <script src="./main-menu.js"></script>
+    <header id="header-main"><!--CABEÇALHO DESKTOP-->
+        <div class="botoes"><!--BOTOES LADO DIREITO-->
+            <!--(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA ABAIXO, DEPOIS MUDE O NOME E O LINK) - EDITÁVEL-->
+            <a class="botao" href="historia.html">Sobre nós</a>
+            <!--BOTÃO SOBRE NÓS-->
+            <a class="botao" href="contato.html">Contato</a>
+            <!--BOTÃO SOBRE NÓS-->
         </div>
         <a href="index.html"> <img src="img/logo.png" alt="logo Comercial Marcelino"></a>
-        <!--LOGO DA EMPRESA-->
+        <!--LOGO DA EMPRESA - EDITÁVEL-->
         <div class="icons"> <!--ICONES DO CABECALHO-->
             <a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i id="icon1"
                     class="fa-brands fa-facebook"></i></a><!--ICONE FACE-->
@@ -51,15 +61,15 @@
                 <i id="icon3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
         </div>
     </header>
-    <section class="section-apresenta-departamento"> <!--BANNER EM ESTILO DO DEPARTAMENTO - ELETRICA-->
+    <section class="section-apresenta-departamento"> <!--BANNER EM ESTILO DO DEPARTAMENTO -->
         <picture>
             <source media="(max-width: 600px)" srcset="img/departamentos/banheiro/banner-mobile-banheiro.png" type="image/png">
             <img id="capa-departamento" src="img/departamentos/banheiro/banner-desktop-banheiro.png" alt="">
-            <!--ANEXO(IMAGEM) - BANNER EM ESTILO DO DEPARTAMENTO - ELETRICA-->
+            <!--ANEXO(IMAGEM) - BANNER EM ESTILO DO DEPARTAMENTO -->
         </picture>     
         <div class="representa-departamento-completa">
         <div class="representacao-departamento">
-            <img src="img/Shower.png" alt=""><!--ANEXO(IMAGEM) - ÍCONE - ELETRICA-->
+            <img src="img/Shower.png" alt=""><!--ANEXO(IMAGEM) - ÍCONE -->
         </div>
         <h1>BANHEIRO</h1><!--NOME DO DEPARTAMENTO-->
     </div>
@@ -153,14 +163,14 @@
             <a class="botao-rodape" href="historia.html">Sobre nós</a> <!--BOTÃO - SOBRE NÓS - RODAPÉ-->
             <a class="botao-rodape" href="contato.html">Contato</a> <!--BOTÃO - CONTATO - RODAPÉ-->
             <a class="botao-rodape"
-            href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento.">ORÇAMENTO</a>
-        <!--BOTÃO - ORÇAMENTO - RODAPÉ--> 
-    </div>
+                href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento.">ORÇAMENTO</a>
+            <!--BOTÃO - ORÇAMENTO - RODAPÉ-->
+        </div>
         <div class="convidativo">
             <img src="img/homem_eletricista.jpg" alt=""> <!--IMAGEM - RODAPÉ-->
             <div class="frase-convidativo">
                 <div id="frase-venhafazer">
-                    <p> Venha fazer</p>
+                    <p> Venha fazer</p><!--FRASE - RODAPÉ-->
                 </div>
                 <div id="frase-suascompras">
                     <p>suas compras!</p>
@@ -171,8 +181,8 @@
                         class="fa-brands fa-facebook"></i></a><!--ICONE FACE-->
                 <a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i id="icon-r2"
                         class="fa-brands fa-instagram"></i></a><!--ICONE INSRA-->
-                        <a href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento."
-                        target="_blank"> <i id="icon-r3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
+                <a href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento."> <i
+                        id="icon-r3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
                 <a href="https://www.google.com/maps/place/COMERCIAL+MARCELINO+-+Av+Eng+Francisco+Tavola+n%C2%BA82+Email:+contato@comercialmarcelino.com+Bairro:+-+Cidade+Jardim,+Carinhanha+-+BA,+46445-000/@-14.296696,-43.767331,16z/data=!4m6!3m5!1s0x75a0268305aa073:0x744de766cfa9342f!8m2!3d-14.2966961!4d-43.7673314!16s%2Fg%2F11xfslx04?hl=pt-BR&gl=BR"
                     target="_blank"><i id="icon-r4" class="fa-sharp fa-solid fa-map"></i></a><!--ICONE MAPS-->
             </div>
