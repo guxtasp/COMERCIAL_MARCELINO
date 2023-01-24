@@ -219,6 +219,18 @@ ul {
     width: 20%;
     height: 20%;
 }
+#departamento1{order:5;}
+#departamento2{order:7;}
+#departamento3{order:9;}
+#departamento4{order:1;}
+#departamento5{order:3;}
+#departamento6{order:8;}
+#departamento7{order:10;}
+#departamento8{order:12;}
+#departamento9{order:4;}
+#departamento10{order:6;}
+#departamento11{order:2;}
+#departamento12{order:8;}
 .circle-departamento {
     background-color: #18e35c;
     border-radius: 40px;
