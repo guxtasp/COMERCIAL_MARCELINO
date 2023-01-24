@@ -115,6 +115,7 @@ ul {
     background-color: #182369;
 }
 .contato-formas {
+    margin-left: 80px;
     width: 40%;
     gap: 20px;
     display: flex;
@@ -130,7 +131,7 @@ ul {
     color: #182369;
     margin-top: 40px;
     width: 30vw;
-    box-shadow: 11px 9px 1px 0px rgba(13, 29, 92);
+    box-shadow: 1px1px 9px 1px 0px rgba(13, 29, 92);
 }
 .sac h3,
 .sac p {
@@ -373,7 +374,8 @@ ul {
     }
     .contato-formas {
         gap: 0;
-        margin-top: 10px;
+        margin-top: 10px ;
+        margin-left: 0;
     }
     .sac {
         margin-top: 20px;

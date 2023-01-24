@@ -15,35 +15,46 @@
 </head>
 
 <body>
-    <header id="header">
-        <a class="links-header" id="logo" href="index.html"><img src="img/logo.png" alt=""></a>
+     <!--MENU (CABECALHO) DESKTOP -->
+    <header id="header"><!--CABEÇALHO MOBILE-->
+        <a class="links-header" id="logo" href=""><img src="img/logo.png"
+                alt=""></a><!--LOGO NO CABEÇALHO MOBILE- EDITAVEL-->
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
                 aria-expanded="false">
                 <span id="hamburger"></span>
             </button>
-            <ul id="menu" role="menu">
+            <ul id="menu" role="menu"><!-- MENU NO CABEÇALHO MOBILE-->
+                <!--(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA ABAIXO, DEPOIS MUDE O NOME E O LINK) - EDITÁVEL-->
                 <li class="links-header"><a href="historia.html">Sobre nós</a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - HISTORIA-->
                 <li class="links-header"><a href="contato.html">Contato</a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - CONTATO-->
                 <li class="links-header"><a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i
                             id="icon1" class="fa-brands fa-facebook"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - FACEBOOK -->
                 <li class="links-header"><a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i
                             id="icon2" class="fa-brands fa-instagram"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - INSTAGRAM -->
                 <li class="links-header"><a
                         href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento."
                         target="_blank"> <i id="icon3" class="fa-brands fa-whatsapp"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - WHATSAPP -->
+
             </ul>
         </nav>
     </header>
-    <script src="js/main-menu.js"></script>
-    <header id="header-main">
-        <div class="botoes">
-            <a class="botao" href="historia.html">Sobre nós</a> <!--BOTÃO SOBRE NÓS-->
-            <a class="botao"
-                href="contato.html">Contato</a><!--CONTATO( CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA AO LADO, DEPOIS MUDE O NOME E O LINK)-->
+    <script src="./main-menu.js"></script>
+    <header id="header-main"><!--CABEÇALHO DESKTOP-->
+        <div class="botoes"><!--BOTOES LADO DIREITO-->
+            <!--(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA ABAIXO, DEPOIS MUDE O NOME E O LINK) - EDITÁVEL-->
+            <a class="botao" href="historia.html">Sobre nós</a>
+            <!--BOTÃO SOBRE NÓS-->
+            <a class="botao" href="contato.html">Contato</a>
+            <!--BOTÃO SOBRE NÓS-->
         </div>
         <a href="index.html"> <img src="img/logo.png" alt="logo Comercial Marcelino"></a>
-        <!--LOGO DA EMPRESA-->
+        <!--LOGO DA EMPRESA - EDITÁVEL-->
         <div class="icons"> <!--ICONES DO CABECALHO-->
             <a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i id="icon1"
                     class="fa-brands fa-facebook"></i></a><!--ICONE FACE-->
@@ -53,38 +64,41 @@
                 <i id="icon3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
         </div>
     </header>
-    <section class="section">
-        <img src="img/bannercentral.png" alt="">
+    <section class="section-campanha"> <!--BANNER CENTRAL DO SITE- - EDITÁVEL -->
+        <!--SOURCE MEDIA SERVE PARA QUAL MELHOR DE ADAPTAR-->
+        <source media="(max-width: 450px)" srcset="img/bannercentral_mobile.png" type="image/png">
+        <!--BANNER MOBILE - TAMANHO 450px - EDITÁVEL-->
+        <img src="img/bannercentral.png" alt=""> <!--BANNER DESKTOP - TAMANHO 450px - EDITÁVEL-->
     </section>
-    <section class="departamentos-historias">
-        <p id="small-text">COMERCIAL MARCELINO </p>
-        <h2 id="title-text-departa">Trabalhando com o melhor material para você</h2>
-        <p id="descricao-text-departa">Grande variedade de departamentos para sua casa</p>
-        <img src="img/setores.png" alt="">
+    <section class="departamentos-historias"> <!--SEÇÃO SOBRE DEPARTAMENTOS-->
+        <p id="small-text">COMERCIAL MARCELINO </p> <!--TEXTO PEQUENO - EDITAVEL-->
+        <h2 id="title-text-departa">Trabalhando com o melhor material para você</h2><!--TEXTO GRANDE - EDITAVEL-->
+        <p id="descricao-text-departa">Grande variedade de departamentos para sua casa</p><!--DESCRIÇÃO - TEXTO PEQUENO - EDITAVEL-->
+        <img src="img/setores.png" alt=""> <!--IMAGEM DA CASA - EDITAVEL-->
     </section>
-    <section class="video">
-        <img src="img/apresenta.png" alt="">
+    <section class="video"> <!--VIDEO DE APRESENTAÇÃO-->
+        <img src="img/apresenta.png" alt=""> <!--MOÇO INDICANDO -->
         <div class="video-historia">
-            <p> CONHEÇA NOSSA EMPRESA</p>
+            <p> CONHEÇA NOSSA EMPRESA</p><!--FRASE EM CIMA DO VIDEO - EDITAVEL  -->
             <iframe allow="autoplay;" allowfullscreen style="border:none"
-                src="https://clipchamp.com/watch/IIFPlG8XriK/embed" width="640" height="360"></iframe>
+                src="https://clipchamp.com/watch/IIFPlG8XriK/embed" width="640" height="360"></iframe> <!--VIDEO - EDITAVEL  -->
         </div>
     </section>
     <section class="section-apresentacao"><!--SEÇAO APRESENTAÇÃO-->
         <div class="apresentacao">
-            <h2>NOSSA HISTÓRIA</h2>
-            <p>14 anos construindo sonhos</p>
-            <div class="fotos">
-                <div class="foto" id="ft1"></div>
-                <div class="foto" id="ft2"></div>
-                <div class="foto" id="ft3"></div>
-                <div class="foto" id="ft4"></div>
-                <div class="foto" id="ft5"></div>
-                <div class="foto" id="ft6"></div>
+            <h2>NOSSA HISTÓRIA</h2><!--TITULO DA SEÇÃO-->
+            <p>14 anos construindo sonhos</p><!--SUBTITULO DA SEÇÃO-->
+            <div class="fotos"><!--CONJUNTO DE FOTOS-->
+                <div class="foto" id="ft1"></div><!--FOTO I-->
+                <div class="foto" id="ft2"></div><!--FOTO II-->
+                <div class="foto" id="ft3"></div><!--FOTO III-->
+                <div class="foto" id="ft4"></div><!--FOTO IV-->
+                <div class="foto" id="ft5"></div><!--FOTO V-->
+                <div class="foto" id="ft6"></div><!--FOTO VI-->
             </div>
         </div>
         <p class="final">Desde 2009, trabalhando com o melhor material de construção! Realizando seu sonho de ter a casa
-            própria. Oferecendo atendimento, suporte e entrega com comprometimento e qualidade garantida.</p>
+            própria. Oferecendo atendimento, suporte e entrega com comprometimento e qualidade garantida.</p> <!--TEXTO FINAL DA GALERIA DE FOTOS-->
     </section>
 
 
@@ -93,7 +107,7 @@
 
 
     <footer class="fotter-main"> <!--RODAPÉ-->
-        <img id="logo-rodape" src="./img/logo2.png" alt=""> <!--RODAPÉ - LOGO-->
+        <img id="logo-rodape" src="img/logo2.png" alt=""> <!--RODAPÉ - LOGO-->
         <div class="botoes-rodape">
             <a class="botao-rodape" href="historia.html">Sobre nós</a> <!--BOTÃO - SOBRE NÓS - RODAPÉ-->
             <a class="botao-rodape" href="contato.html">Contato</a> <!--BOTÃO - CONTATO - RODAPÉ-->
@@ -105,7 +119,7 @@
             <img src="img/homem_eletricista.jpg" alt=""> <!--IMAGEM - RODAPÉ-->
             <div class="frase-convidativo">
                 <div id="frase-venhafazer">
-                    <p> Venha fazer</p>
+                    <p> Venha fazer</p><!--FRASE - RODAPÉ-->
                 </div>
                 <div id="frase-suascompras">
                     <p>suas compras!</p>

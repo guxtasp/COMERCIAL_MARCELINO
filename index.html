@@ -15,35 +15,44 @@
 <body>
     <!--MENU (CABECALHO) DESKTOP -->
     <header id="header"><!--CABEÇALHO MOBILE-->
-        <a class="links-header" id="logo" href=""><img src="img/logo.png" alt=""></a><!--LOGO NO CABEÇALHO MOBILE-->
+        <a class="links-header" id="logo" href=""><img src="img/logo.png"
+                alt=""></a><!--LOGO NO CABEÇALHO MOBILE- EDITAVEL-->
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
                 aria-expanded="false">
                 <span id="hamburger"></span>
             </button>
             <ul id="menu" role="menu"><!-- MENU NO CABEÇALHO MOBILE-->
-                <li class="links-header"><a href="historia.html">Sobre nós</a></li><!--LINKS DO MENU NO CABEÇALHO MOBILE-->
-                <li class="links-header"><a href="contato.html">Contato</a></li><!--LINKS DO MENU NO CABEÇALHO MOBILE-->
+                <!--(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA ABAIXO, DEPOIS MUDE O NOME E O LINK) - EDITÁVEL-->
+                <li class="links-header"><a href="historia.html">Sobre nós</a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - HISTORIA-->
+                <li class="links-header"><a href="contato.html">Contato</a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - CONTATO-->
                 <li class="links-header"><a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i
-                            id="icon1" class="fa-brands fa-facebook"></i></a></li><!--LINKS DO MENU NO CABEÇALHO MOBILE-->
+                            id="icon1" class="fa-brands fa-facebook"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - FACEBOOK -->
                 <li class="links-header"><a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i
-                            id="icon2" class="fa-brands fa-instagram"></i></a></li><!--LINKS DO MENU NO CABEÇALHO MOBILE-->
+                            id="icon2" class="fa-brands fa-instagram"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - INSTAGRAM -->
                 <li class="links-header"><a
                         href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento."
-                        target="_blank"> <i id="icon3" class="fa-brands fa-whatsapp"></i></a></li><!--LINKS DO MENU NO CABEÇALHO MOBILE-->
-                        <!--CONTATO(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA AO LADO, DEPOIS MUDE O NOME E O LINK)-->
+                        target="_blank"> <i id="icon3" class="fa-brands fa-whatsapp"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - WHATSAPP -->
+
             </ul>
         </nav>
     </header>
     <script src="./main-menu.js"></script>
-    <header id="header-main">
-        <div class="botoes">
-            <a class="botao" href="historia.html">Sobre nós</a> <!--BOTÃO SOBRE NÓS-->
-            <a class="botao"
-                href="contato.html">Contato</a><!--CONTATO(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA AO LADO, DEPOIS MUDE O NOME E O LINK)-->
+    <header id="header-main"><!--CABEÇALHO DESKTOP-->
+        <div class="botoes"><!--BOTOES LADO DIREITO-->
+            <!--(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA ABAIXO, DEPOIS MUDE O NOME E O LINK) - EDITÁVEL-->
+            <a class="botao" href="historia.html">Sobre nós</a>
+            <!--BOTÃO SOBRE NÓS-->
+            <a class="botao" href="contato.html">Contato</a>
+            <!--BOTÃO SOBRE NÓS-->
         </div>
         <a href="index.html"> <img src="img/logo.png" alt="logo Comercial Marcelino"></a>
-        <!--LOGO DA EMPRESA-->
+        <!--LOGO DA EMPRESA - EDITÁVEL-->
         <div class="icons"> <!--ICONES DO CABECALHO-->
             <a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i id="icon1"
                     class="fa-brands fa-facebook"></i></a><!--ICONE FACE-->
@@ -54,19 +63,22 @@
         </div>
     </header>
 
-    <section class="section-campanha"> <!--BANNER CENTRAL DO SITE-->
+    <section class="section-campanha"> <!--BANNER CENTRAL DO SITE- - EDITÁVEL -->
+        <!--SOURCE MEDIA SERVE PARA QUAL MELHOR DE ADAPTAR-->
         <source media="(max-width: 450px)" srcset="img/bannercentral_mobile.png" type="image/png">
-        <img src="img/bannercentral.png" alt="">
+        <!--BANNER MOBILE - TAMANHO 450px - EDITÁVEL-->
+        <img src="img/bannercentral.png" alt=""> <!--BANNER DESKTOP - TAMANHO 450px - EDITÁVEL-->
     </section>
     <section class="section-informacoes"><!--INFORMAÇÕES SOBRE A EMPRESA-->
-        <img src="img/info1.png" alt="" id="info1">
-        <img src="img/info2.png" alt="" id="info2">
-        <img src="img/info3.png" alt="" id="info3">
+        <img src="img/info1.png" alt="" id="info1"> <!--INFO1-->
+        <img src="img/info2.png" alt="" id="info2"> <!--INFO2-->
+        <img src="img/info3.png" alt="" id="info3"> <!--INFO3-->
     </section>
-    <main class="main-content"> <!--CONTEÚDO DA LANDING PAGE-->
+    <main class="main-content"> <!--CONTEÚDO DA PAGINA-->
         <section class="section-promocao"> <!--SEÇAO PROMOÇÃO-->
             <img src="img/banner.png" alt="" id="banner-promo"> <!--BANNER DA PROMOÇÃO-->
             <div class="promos-destaques">
+
                 <div class="promo-destaque-story"> <!--DESTQUE PROMOÇÕES EM FORMATO STORY-->
                     <img class="banner-promo" src="" alt=""> <!--IMAGEM MOSTRANDO-->
                 </div>
@@ -115,10 +127,13 @@
         <section class="section-departamento"><!--SEÇAO DEPARTAMENTO-->
             <h2 id="title-departamento">DEPARTAMENTOS</h2> <!--TÍTULO DA SEÇÃO - DEPARTAMENTOS-->
             <div class="departamentos"> <!--AGRUPAMENTO DOS DEPARTAMENTOS-->
-                <div class="departamento" id="departamento1" style="background-color: #565871;"> <!--FUNDO DO DEPARTAMENTO-->
+                <div class="departamento" id="departamento1" style="background-color: #565871;">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
+
 
                     <div class="circle-departamento" style="background-color:#353855;">
-                        <!--ÍCONE DO SEU DEPARTAMENTO -->
+                        <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
+
                         <div class="icone">
                             <a href="departamento_eletrica.html"> <img src="img/electricity.png" alt=""></a>
                             <!--ICONE ARQUIVO-->
@@ -132,9 +147,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="departamento" id="departamento2" style="background-color:#565871;"><!--FUNDO DO DEPARTAMENTO-->
+                <div class="departamento" id="departamento2" style="background-color:#565871;">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
                     <div class="circle-departamento" style="background-color: #353855;">
-                        <!--ÍCONE DO SEU DEPARTAMENTO -->
+                        <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         <div class="icone">
                             <a href="departamento_hidraulica.html"> <img src="img/Water Pipe.png" alt="">
                             </a><!--ICONE ARQUIVO-->
@@ -149,11 +165,13 @@
                     </div>
                 </div>
 
-                <div class="departamento" id="departamento3" style="background-color: #565871;"><!--FUNDO DO DEPARTAMENTO-->
-                    <div class="circle-departamento" style="background-color:#353855"> <!--ÍCONE DO SEU DEPARTAMENTO -->
+                <div class="departamento" id="departamento3" style="background-color: #565871;">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
+                    <div class="circle-departamento" style="background-color:#353855">
+                        <!--ÍCONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         <div class="icone">
                             <a href="departamento_pintura.html"> <img src="img/Vector.png" alt="">
-                                <!--</a>ICONE ARQUIVO-->
+                                <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         </div>
                     </div>
                     <div class="name-departamento">
@@ -164,9 +182,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="departamento" id="departamento4" style="background-color:#565871 ;"><!--FUNDO DO DEPARTAMENTO-->
+                <div class="departamento" id="departamento4" style="background-color:#565871 ;">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
                     <div class="circle-departamento" style="background-color:#353855 ;">
-                        <!--ÍCONE DO SEU DEPARTAMENTO -->
+                        <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         <div class="icone">
                             <a href="departamento_acabamento.html"> <img src="img/Wooden Floor.png" alt=""></a>
                             <!--ICONE ARQUIVO-->
@@ -180,11 +199,12 @@
                         </a>
                     </div>
                 </div>
-                <div class="departamento" id="departamento5" style="background-color: #565871"><!--FUNDO DO DEPARTAMENTO-->
+                <div class="departamento" id="departamento5" style="background-color: #565871">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
                     <div class="circle-departamento" style="background-color:#353855"> <!--ÍCONE DO SEU DEPARTAMENTO -->
                         <div class="icone">
                             <a href="departamento_banheiro.html"> <img src="img/Shower.png" alt="">
-                                <!--</a>ICONE ARQUIVO-->
+                                <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         </div>
                     </div>
                     <div class="name-departamento">
@@ -195,9 +215,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="departamento" id="departamento6" style="background-color: #565871;"><!--FUNDO DO DEPARTAMENTO-->
+                <div class="departamento" id="departamento6" style="background-color: #565871;">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
                     <div class="circle-departamento" style="background-color:#353855;">
-                        <!--ÍCONE DO SEU DEPARTAMENTO -->
+                        <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         <div class="icone">
                             <a href="departamento_levantamento.html"> <img src="img/Cube.png" alt="">
                                 <!--IC</a>ONE ARQUIVO-->
@@ -211,9 +232,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="departamento" id="departamento7" style="background-color: #565871;"><!--FUNDO DO DEPARTAMENTO-->
+                <div class="departamento" id="departamento7" style="background-color: #565871;">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
                     <div class="circle-departamento" style="background-color:#353855;">
-                        <!--ÍCONE DO SEU DEPARTAMENTO -->
+                        <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         <div class="icone">
                             <a href="departamento_piscina.html"> <img src="img/Pool.png" alt="">
                                 <!--IC</a>ONE ARQUIVO-->
@@ -227,9 +249,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="departamento" id="departamento8" style="background-color:#565871 ;"><!--FUNDO DO DEPARTAMENTO-->
+                <div class="departamento" id="departamento8" style="background-color:#565871 ;">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
                     <div class="circle-departamento" style="background-color:#353855;">
-                        <!--ÍCONE DO SEU DEPARTAMENTO -->
+                        <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         <div class="icone">
                             <a href="departamento_portas_e_janelas.html"> <img src="img/windows.png" alt=""></a>
                             <!--ICONE ARQUIVO-->
@@ -243,9 +266,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="departamento" id="departamento9" style="background-color:#565871 ;"><!--FUNDO DO DEPARTAMENTO-->
+                <div class="departamento" id="departamento9" style="background-color:#565871 ;">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
                     <div class="circle-departamento" style="background-color:#353855 ;">
-                        <!--ÍCONE DO SEU DEPARTAMENTO -->
+                        <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         <div class="icone">
                             <a href="departamento_cozinha.html"> <img src="img/Hair Washing Sink.png" alt=""></a>
                             <!--ICONE ARQUIVO-->
@@ -259,9 +283,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="departamento" id="departamento10" style="background-color:#565871 ;"><!--FUNDO DO DEPARTAMENTO-->
+                <div class="departamento" id="departamento10" style="background-color:#565871 ;">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
                     <div class="circle-departamento" style="background-color:#353855 ;">
-                        <!--ÍCONE DO SEU DEPARTAMENTO -->
+                        <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         <div class="icone">
                             <a href="departamento_ferramentas.html"> <img src="img/Tools.png" alt="">
                                 <!--I</a>CONE ARQUIVO-->
@@ -275,9 +300,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="departamento" id="departamento11" style="background-color:#565871 ;"><!--FUNDO DO DEPARTAMENTO-->
+                <div class="departamento" id="departamento11" style="background-color:#565871 ;">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
                     <div class="circle-departamento" style="background-color:#353855;">
-                        <!--ÍCONE DO SEU DEPARTAMENTO -->
+                        <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         <div class="icone">
                             <a href="departamento_agropecuaria.html"> <img src="img/Tractor.png" alt=""></a>
                             <!--ICONE ARQUIVO-->
@@ -291,9 +317,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="departamento" id="departamento12" style="background-color:#565871 ;"><!--FUNDO DO DEPARTAMENTO-->
+                <div class="departamento" id="departamento12" style="background-color:#565871 ;">
+                    <!--FUNDO DO DEPARTAMENTO - COR EDITÁVEL-->
                     <div class="circle-departamento" style="background-color:#353855 ;">
-                        <!--ÍCONE DO SEU DEPARTAMENTO -->
+                        <!--CIRCULO ICONE DO SEU DEPARTAMENTO - COR EDITÁVEL -->
                         <div class="icone">
                             <a href="departamento_irrigacao.html"> <img src="img/Irrigation.png" alt="">
                             </a><!--ICONE ARQUIVO-->
@@ -331,101 +358,101 @@
                             <div class="marquee-box">
                                 <div class="marquee">
                                     <figure>
-                                        <img src="img/logo_coral.gif" alt="Logo da coral">
-                                        <figcaption>Coral Tintas</figcaption>
+                                        <img src="img/logo_coral.gif" alt="Logo da coral"><!--LOGO - MARCA - EDITÁVEL-->
+                                        <figcaption>Coral Tintas</figcaption><!--NOME - MARCA - EDITÁVEL-->
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_arcelor.png" alt="Logo da Arcelor Mittal">
+                                        <img src="img/logo_arcelor.png" alt="Logo da Arcelor Mittal"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>ArcelorMittal</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_plastubos.jpg" alt="Logo da Plastubos">
+                                        <img src="img/logo_plastubos.jpg" alt="Logo da Plastubos"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>Plastubos</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_morlan.png" alt="Logo da Morlan">
+                                        <img src="img/logo_morlan.png" alt="Logo da Morlan"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>Morlan</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_nacional.png" alt="Logo da Nacional">
+                                        <img src="img/logo_nacional.png" alt="Logo da Nacional"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>Nacional</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_rocca.jpeg" alt="Logo da Grupo Rocca">
+                                        <img src="img/logo_rocca.jpeg" alt="Logo da Grupo Rocca"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>Grupo Rocca</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_fortlev.gif" alt="Logo da FORTLEV">
+                                        <img src="img/logo_fortlev.gif" alt="Logo da FORTLEV"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>FORTLEV</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_lef.svg" alt="Logo da Lef Cerâmica">
+                                        <img src="img/logo_lef.svg" alt="Logo da Lef Cerâmica"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>LEF Cerâmica</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_hidrotintas.png" alt="Logo da Hidrotintas">
+                                        <img src="img/logo_hidrotintas.png" alt="Logo da Hidrotintas"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>Hidrotintas</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_astra.gif" alt="Logo da ASTRA">
+                                        <img src="img/logo_astra.gif" alt="Logo da ASTRA"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>ASTRA</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_mgm.png" alt="Logo da MGM">
+                                        <img src="img/logo_mgm.png" alt="Logo da MGM"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>MGM</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_smg.png" alt="Logo da SMG">
+                                        <img src="img/logo_smg.png" alt="Logo da SMG"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>SMG</figcaption>
                                     </figure>
                                 </div>
                                 <div class="marquee">
                                     <figure>
-                                        <img src="img/logo_coral.gif" alt="Logo da coral">
+                                        <img src="img/logo_coral.gif" alt="Logo da coral"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Coral Tintas</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_arcelor.png" alt="Logo da Arcelor Mittal">
+                                        <img src="img/logo_arcelor.png" alt="Logo da Arcelor Mittal"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>ArcelorMittal</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_plastubos.jpg" alt="Logo da Plastubos">
+                                        <img src="img/logo_plastubos.jpg" alt="Logo da Plastubos"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Plastubos</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_morlan.png" alt="Logo da Morlan">
+                                        <img src="img/logo_morlan.png" alt="Logo da Morlan"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Morlan</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_nacional.png" alt="Logo da Nacional">
+                                        <img src="img/logo_nacional.png" alt="Logo da Nacional"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Nacional</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_rocca.jpeg" alt="Logo da Grupo Rocca">
+                                        <img src="img/logo_rocca.jpeg" alt="Logo da Grupo Rocca"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Grupo Rocca</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_fortlev.gif" alt="Logo da FORTLEV">
+                                        <img src="img/logo_fortlev.gif" alt="Logo da FORTLEV"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>FORTLEV</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_lef.svg" alt="Logo da Lef Cerâmica">
+                                        <img src="img/logo_lef.svg" alt="Logo da Lef Cerâmica"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>LEF Cerâmica</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_hidrotintas.png" alt="Logo da Hidrotintas">
+                                        <img src="img/logo_hidrotintas.png" alt="Logo da Hidrotintas"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Hidrotintas</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_astra.gif" alt="Logo da ASTRA">
+                                        <img src="img/logo_astra.gif" alt="Logo da ASTRA"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>ASTRA</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_mgm.png" alt="Logo da MGM">
+                                        <img src="img/logo_mgm.png" alt="Logo da MGM"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>MGM</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_smg.png" alt="Logo da SMG">
+                                        <img src="img/logo_smg.png" alt="Logo da SMG"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>SMG</figcaption>
                                     </figure>
                                 </div>
@@ -436,18 +463,18 @@
         </section>
         <section class="section-apresentacao"><!--SEÇAO APRESENTAÇÃO-->
             <div class="apresentacao">
-                <h2>Galeria de fotos</h2>
-                <p>14 anos construindo sonhos</p>
-                <div class="fotos">
-                    <div class="foto" id="ft1"></div>
-                    <div class="foto" id="ft2"></div>
-                    <div class="foto" id="ft3"></div>
-                    <div class="foto" id="ft4"></div>
-                    <div class="foto" id="ft5"></div>
-                    <div class="foto" id="ft6"></div>
+                <h2>Galeria de fotos</h2><!--TITULO DA SEÇÃO-->
+                <p>14 anos construindo sonhos</p><!--SUBTITULO DA SEÇÃO-->
+                <div class="fotos"><!--CONJUNTO DE FOTOS-->
+                    <div class="foto" id="ft1"></div><!--FOTO I-->
+                    <div class="foto" id="ft2"></div><!--FOTO II-->
+                    <div class="foto" id="ft3"></div><!--FOTO III-->
+                    <div class="foto" id="ft4"></div><!--FOTO IV-->
+                    <div class="foto" id="ft5"></div><!--FOTO V-->
+                    <div class="foto" id="ft6"></div><!--FOTO VI-->
                 </div>
             </div>
-            <a href="historia.html"><button>Conheça-nos</button></a>
+            <a href="historia.html"><button>Conheça-nos</button></a> <!--BOTAO DE ACCESO DA PAGIANDE SOBRE NOS - EDITAVEL-->
         </section>
         <section class="section-localiza"> <!--SEÇAO LOCALIZAÇÃO-->
             <h2><i class="fa-solid fa-store"></i>Conheça nossa loja</h2><!--TÓPICO(FRASE) - LOCALIZAÇÃO-->
@@ -470,7 +497,7 @@
             <img src="img/homem_eletricista.jpg" alt=""> <!--IMAGEM - RODAPÉ-->
             <div class="frase-convidativo">
                 <div id="frase-venhafazer">
-                    <p> Venha fazer</p>
+                    <p> Venha fazer</p><!--FRASE - RODAPÉ-->
                 </div>
                 <div id="frase-suascompras">
                     <p>suas compras!</p>
