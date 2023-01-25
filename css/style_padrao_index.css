@@ -425,12 +425,12 @@ a {
 }
 #ft5 {
     grid-area: f5;
-    background-image: url("");
+    /*background-image: url("");*/
     background-size: cover;
 }
 #ft6 {
     grid-area: f6;
-    background-image: url("");
+     /*background-image: url("");*/
     background-size: cover;
 }
 
