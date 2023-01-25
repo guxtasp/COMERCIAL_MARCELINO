@@ -15,7 +15,7 @@
 </head>
 
 <body>
-     <!--MENU (CABECALHO) DESKTOP -->
+    <!--MENU (CABECALHO) DESKTOP -->
     <header id="header"><!--CABEÇALHO MOBILE-->
         <a class="links-header" id="logo" href=""><img src="img/logo.png"
                 alt=""></a><!--LOGO NO CABEÇALHO MOBILE- EDITAVEL-->
@@ -66,14 +66,17 @@
     </header>
     <section class="section-campanha"> <!--BANNER CENTRAL DO SITE- - EDITÁVEL -->
         <!--SOURCE MEDIA SERVE PARA QUAL MELHOR DE ADAPTAR-->
-        <source media="(max-width: 450px)" srcset="img/bannercentral_mobile.png" type="image/png">
-        <!--BANNER MOBILE - TAMANHO 450px - EDITÁVEL-->
-        <img src="img/bannercentral.png" alt=""> <!--BANNER DESKTOP - TAMANHO 450px - EDITÁVEL-->
+        <picture>
+            <source media="(max-width: 600px)" srcset="img/bannercentral_mobile.png" type="image/png">
+            <!--BANNER MOBILE - TAMANHO 450px - EDITÁVEL-->
+            <img src="img/bannercentral.png" alt=""> <!--BANNER DESKTOP - TAMANHO 450px - EDITÁVEL-->
+        </picture>
     </section>
     <section class="departamentos-historias"> <!--SEÇÃO SOBRE DEPARTAMENTOS-->
         <p id="small-text">COMERCIAL MARCELINO </p> <!--TEXTO PEQUENO - EDITAVEL-->
         <h2 id="title-text-departa">Trabalhando com o melhor material para você</h2><!--TEXTO GRANDE - EDITAVEL-->
-        <p id="descricao-text-departa">Grande variedade de departamentos para sua casa</p><!--DESCRIÇÃO - TEXTO PEQUENO - EDITAVEL-->
+        <p id="descricao-text-departa">Grande variedade de departamentos para sua casa</p>
+        <!--DESCRIÇÃO - TEXTO PEQUENO - EDITAVEL-->
         <img src="img/setores.png" alt=""> <!--IMAGEM DA CASA - EDITAVEL-->
     </section>
     <section class="video"> <!--VIDEO DE APRESENTAÇÃO-->
@@ -81,7 +84,8 @@
         <div class="video-historia">
             <p> CONHEÇA NOSSA EMPRESA</p><!--FRASE EM CIMA DO VIDEO - EDITAVEL  -->
             <iframe allow="autoplay;" allowfullscreen style="border:none"
-                src="https://clipchamp.com/watch/IIFPlG8XriK/embed" width="640" height="360"></iframe> <!--VIDEO - EDITAVEL  -->
+                src="https://clipchamp.com/watch/IIFPlG8XriK/embed" width="640" height="360"></iframe>
+            <!--VIDEO - EDITAVEL  -->
         </div>
     </section>
     <section class="section-apresentacao"><!--SEÇAO APRESENTAÇÃO-->
@@ -98,7 +102,8 @@
             </div>
         </div>
         <p class="final">Desde 2009, trabalhando com o melhor material de construção! Realizando seu sonho de ter a casa
-            própria. Oferecendo atendimento, suporte e entrega com comprometimento e qualidade garantida.</p> <!--TEXTO FINAL DA GALERIA DE FOTOS-->
+            própria. Oferecendo atendimento, suporte e entrega com comprometimento e qualidade garantida.</p>
+        <!--TEXTO FINAL DA GALERIA DE FOTOS-->
     </section>
 
 

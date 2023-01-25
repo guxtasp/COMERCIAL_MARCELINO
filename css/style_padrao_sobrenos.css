@@ -77,6 +77,10 @@ ul {
     color: black;
     font-size: 25px;
 }
+.section-campanha img {
+    width: 100%;
+    height: auto;
+}
 .section{
     display: flex;
     justify-content: center;
