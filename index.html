@@ -13,82 +13,91 @@
 </head>
 
 <body>
-    <!--MENU (CABECALHO) DESKTOP -->
     <header id="header"><!--CABEÇALHO MOBILE-->
-        <a class="links-header" id="logo" href="index.html"><img src="img/logo.png"
-                alt=""></a><!--LOGO NO CABEÇALHO MOBILE- EDITAVEL-->
+        <a class="links-header" id="logo" href="index.html"><img src="img/logo.png" alt="LOGO EMPRESA"></a><!--LOGO NO CABEÇALHO MOBILE- EDITAVEL-->
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
                 aria-expanded="false">
                 <span id="hamburger"></span>
             </button>
             <ul id="menu" role="menu"><!-- MENU NO CABEÇALHO MOBILE-->
-                <!--(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA ABAIXO, DEPOIS MUDE O NOME E O LINK) - EDITÁVEL-->
+
+                <!--(CASO QUEIRA ADICIONAR OUTRO BOTÃO, COPIE MESMA ESTRUTURA ABAIXO, DEPOIS MUDE O NOME E O LINK) - EDITÁVEL-->
+
                 <li class="links-header"><a href="historia.html">Sobre nós</a></li>
                 <!--LINK DO MENU NO CABEÇALHO MOBILE - HISTORIA-->
+
                 <li class="links-header"><a href="contato.html">Contato</a></li>
-                <!--LINK DO MENU NO CABEÇALHO MOBILE - CONTATO-->
-                <li class="links-header"><a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i
-                            id="icon1" class="fa-brands fa-facebook"></i></a></li>
-                <!--LINK DO MENU NO CABEÇALHO MOBILE - FACEBOOK -->
-                <li class="links-header"><a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i
-                            id="icon2" class="fa-brands fa-instagram"></i></a></li>
-                <!--LINK DO MENU NO CABEÇALHO MOBILE - INSTAGRAM -->
-                <li class="links-header"><a
-                        href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento."
-                        target="_blank"> <i id="icon3" class="fa-brands fa-whatsapp"></i></a></li>
-                <!--LINK DO MENU NO CABEÇALHO MOBILE - WHATSAPP -->
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - CONTATO - EDITAVEL-->
+
+                <li class="links-header"><a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i id="icon1" class="fa-brands fa-facebook"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - FACEBOOK - EDITAVEL  -->
+
+                <li class="links-header"><a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i id="icon2" class="fa-brands fa-instagram"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - INSTAGRAM - EDITAVEL  -->
+
+                <li class="links-header"><a href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento." target="_blank"> <i id="icon3" class="fa-brands fa-whatsapp"></i></a></li>
+                <!--LINK DO MENU NO CABEÇALHO MOBILE - WHATSAPP - EDITAVEL -->
 
             </ul>
         </nav>
     </header>
-    <script src="./main-menu.js"></script>
+    <!--FIM DO CABEÇALHO MOBILE-->
+    <!--------------------------------------------------------------->
+    <script src="js/main-menu.js"></script> <!--CODIGO JAVASCRIPT - NÃO EDITAR-->
+    <!--------------------------------------------------------------->
     <header id="header-main"><!--CABEÇALHO DESKTOP-->
         <div class="botoes"><!--BOTOES LADO DIREITO-->
             <!--(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA ABAIXO, DEPOIS MUDE O NOME E O LINK) - EDITÁVEL-->
+
             <a class="botao" href="historia.html">Sobre nós</a>
             <!--BOTÃO SOBRE NÓS-->
+
             <a class="botao" href="contato.html">Contato</a>
             <!--BOTÃO SOBRE NÓS-->
         </div>
-        <a href="index.html"> <img src="img/logo.png" alt="logo Comercial Marcelino"></a>
-        <!--LOGO DA EMPRESA - EDITÁVEL-->
+
+        <a href="index.html"> <img src="img/logo.png" alt="logo Comercial Marcelino"></a> <!--LOGO DA EMPRESA - EDITÁVEL-->
+
         <div class="icons"> <!--ICONES DO CABECALHO-->
-            <a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i id="icon1"
-                    class="fa-brands fa-facebook"></i></a><!--ICONE FACE-->
-            <a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i id="icon2"
-                    class="fa-brands fa-instagram"></i></a><!--ICONE INSRA-->
-            <a href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento." target="_blank">
-                <i id="icon3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
+            <a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i id="icon1" class="fa-brands fa-facebook"></i></a><!--ICONE FACE-->
+            <a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i id="icon2" class="fa-brands fa-instagram"></i></a><!--ICONE INSRA-->
+            <a href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento." target="_blank"> <i id="icon3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
         </div>
     </header>
+    <!--FIM DO CABEÇALHO DESKTOP-->
 
-    <section class="section-campanha"> <!--BANNER CENTRAL DO SITE- - EDITÁVEL -->
-        <!--SOURCE MEDIA SERVE PARA QUAL MELHOR DE ADAPTAR-->
-        <picture>
-        <source media="(max-width: 600px)" srcset="img/bannercentral_mobile.png" type="image/png">
-        <!--BANNER MOBILE - TAMANHO 450px - EDITÁVEL-->
-        <img src="img/bannercentral.png" alt=""> <!--BANNER DESKTOP - TAMANHO 450px - EDITÁVEL-->
-    </picture>
-    </section>
+    
+    <section class="section-campanha"> <!--BANNER CENTRAL -->
+        <picture> <!--BANNER CENTRAL DO SITE- - EDITÁVEL -->
+            <source media="(max-width: 600px)" srcset="img/bannercentral_mobile.png" type="image/png"> <!--SOURCE MEDIA SERVE PARA QUAL MELHOR DE ADAPTAR-->
+            <!--BANNER MOBILE - TAMANHO 600px - EDITÁVEL-->
+            <img src="img/bannercentral.png" alt=""> <!--BANNER DESKTOP - TAMANHO 450px - EDITÁVEL-->
+        </picture>
+    </section><!--FIM DO BANNER CENTRAL -->
+
+
     <section class="section-informacoes"><!--INFORMAÇÕES SOBRE A EMPRESA-->
         <img src="img/info1.png" alt="" id="info1"> <!--INFO1-->
         <img src="img/info2.png" alt="" id="info2"> <!--INFO2-->
         <img src="img/info3.png" alt="" id="info3"> <!--INFO3-->
     </section>
+
+
     <main class="main-content"> <!--CONTEÚDO DA PAGINA-->
         <section class="section-promocao"> <!--SEÇAO PROMOÇÃO-->
-            <img src="img/banner.png" alt="" id="banner-promo"> <!--BANNER DA PROMOÇÃO-->
-            <div class="promos-destaques">
+            <img src="img/banner.png" alt="" id="banner-promo"> <!--BANNER DA PROMOÇÃO - EDITAVEL -->
+            
+            
+            <div class="promos-destaques"> <!--CONJUNTO DAS PROMOS-DESTAQUES-->
 
-                <div class="promo-destaque-story"> <!--DESTQUE PROMOÇÕES EM FORMATO STORY-->
-                    <img class="banner-promo" src="" alt=""> <!--IMAGEM MOSTRANDO-->
+                <div class="promo-destaque-story" id="promo-destaq1"> <!--DESTQUE PROMOÇÕES EM FORMATO STORY-->
+                    <!--IMAGEM DESTACADA NO CSS-->
                 </div>
-                <div class="promo-destaque-story"> <!--DESTQUE PROMOÇÕES EM FORMATO STORY-->
-                    <img class="banner-promo" src="" alt=""> <!--IMAGEM MOSTRANDO-->
+                <div class="promo-destaque-story" id="promo-destaq2"> <!--DESTQUE PROMOÇÕES EM FORMATO STORY-->
                 </div>
-                <div class="promo-destaque-story"> <!--DESTQUE PROMOÇÕES EM FORMATO STORY-->
-                    <img class="banner-promo" src="" alt=""> <!--IMAGEM MOSTRANDO-->
+
+                <div class="promo-destaque-story" id="promo-destaq3"> <!--DESTQUE PROMOÇÕES EM FORMATO STORY-->
                 </div>
 
             </div>
@@ -364,35 +373,43 @@
                                         <figcaption>Coral Tintas</figcaption><!--NOME - MARCA - EDITÁVEL-->
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_arcelor.png" alt="Logo da Arcelor Mittal"><!--LOGO - MARCA - EDITÁVEL-->
+                                        <img src="img/logo_arcelor.png"
+                                            alt="Logo da Arcelor Mittal"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>ArcelorMittal</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_plastubos.jpg" alt="Logo da Plastubos"><!--LOGO - MARCA - EDITÁVEL-->
+                                        <img src="img/logo_plastubos.jpg"
+                                            alt="Logo da Plastubos"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>Plastubos</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_morlan.png" alt="Logo da Morlan"><!--LOGO - MARCA - EDITÁVEL-->
+                                        <img src="img/logo_morlan.png"
+                                            alt="Logo da Morlan"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>Morlan</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_nacional.png" alt="Logo da Nacional"><!--LOGO - MARCA - EDITÁVEL-->
+                                        <img src="img/logo_nacional.png"
+                                            alt="Logo da Nacional"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>Nacional</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_rocca.jpeg" alt="Logo da Grupo Rocca"><!--LOGO - MARCA - EDITÁVEL-->
+                                        <img src="img/logo_rocca.jpeg"
+                                            alt="Logo da Grupo Rocca"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>Grupo Rocca</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_fortlev.gif" alt="Logo da FORTLEV"><!--LOGO - MARCA - EDITÁVEL-->
+                                        <img src="img/logo_fortlev.gif"
+                                            alt="Logo da FORTLEV"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>FORTLEV</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_lef.svg" alt="Logo da Lef Cerâmica"><!--LOGO - MARCA - EDITÁVEL-->
+                                        <img src="img/logo_lef.svg"
+                                            alt="Logo da Lef Cerâmica"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>LEF Cerâmica</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_hidrotintas.png" alt="Logo da Hidrotintas"><!--LOGO - MARCA - EDITÁVEL-->
+                                        <img src="img/logo_hidrotintas.png"
+                                            alt="Logo da Hidrotintas"><!--LOGO - MARCA - EDITÁVEL-->
                                         <figcaption>Hidrotintas</figcaption>
                                     </figure>
                                     <figure>
@@ -410,51 +427,63 @@
                                 </div>
                                 <div class="marquee">
                                     <figure>
-                                        <img src="img/logo_coral.gif" alt="Logo da coral"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_coral.gif"
+                                            alt="Logo da coral"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Coral Tintas</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_arcelor.png" alt="Logo da Arcelor Mittal"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_arcelor.png"
+                                            alt="Logo da Arcelor Mittal"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>ArcelorMittal</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_plastubos.jpg" alt="Logo da Plastubos"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_plastubos.jpg"
+                                            alt="Logo da Plastubos"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Plastubos</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_morlan.png" alt="Logo da Morlan"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_morlan.png"
+                                            alt="Logo da Morlan"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Morlan</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_nacional.png" alt="Logo da Nacional"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_nacional.png"
+                                            alt="Logo da Nacional"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Nacional</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_rocca.jpeg" alt="Logo da Grupo Rocca"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_rocca.jpeg"
+                                            alt="Logo da Grupo Rocca"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Grupo Rocca</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_fortlev.gif" alt="Logo da FORTLEV"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_fortlev.gif"
+                                            alt="Logo da FORTLEV"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>FORTLEV</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_lef.svg" alt="Logo da Lef Cerâmica"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_lef.svg"
+                                            alt="Logo da Lef Cerâmica"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>LEF Cerâmica</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_hidrotintas.png" alt="Logo da Hidrotintas"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_hidrotintas.png"
+                                            alt="Logo da Hidrotintas"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>Hidrotintas</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_astra.gif" alt="Logo da ASTRA"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_astra.gif"
+                                            alt="Logo da ASTRA"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>ASTRA</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_mgm.png" alt="Logo da MGM"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_mgm.png"
+                                            alt="Logo da MGM"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>MGM</figcaption>
                                     </figure>
                                     <figure>
-                                        <img src="img/logo_smg.png" alt="Logo da SMG"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
+                                        <img src="img/logo_smg.png"
+                                            alt="Logo da SMG"><!--LOGO REPETIÇÃO- MARCA - EDITÁVEL-->
                                         <figcaption>SMG</figcaption>
                                     </figure>
                                 </div>
@@ -476,7 +505,8 @@
                     <div class="foto" id="ft6"></div><!--FOTO VI-->
                 </div>
             </div>
-            <a href="historia.html"><button>Conheça-nos</button></a> <!--BOTAO DE ACCESO DA PAGIANDE SOBRE NOS - EDITAVEL-->
+            <a href="historia.html"><button>Conheça-nos</button></a>
+            <!--BOTAO DE ACCESO DA PAGIANDE SOBRE NOS - EDITAVEL-->
         </section>
         <section class="section-localiza"> <!--SEÇAO LOCALIZAÇÃO-->
             <h2><i class="fa-solid fa-store"></i>Conheça nossa loja</h2><!--TÓPICO(FRASE) - LOCALIZAÇÃO-->
