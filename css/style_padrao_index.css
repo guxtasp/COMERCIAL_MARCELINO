@@ -1,17 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@100;500;700&display=swap");
-
-/*TODOS AS LINHAS QUE ESTIVEREM COM COMENTARIOS,
-SÃO O QUE PODEM EDITAR SEM COMPROMETER O PROJETO*/
 body {
     margin: 0;
     padding: 0;
     font-family: "Raleway", sans-serif;
-    background-color: white; /*COR DO HTML TODO*/
+    background-color: white;
 }
 
 #header-main {
     padding: 5px 0 10px 0;
-    background-color: #c1bfbfce;/*COR DO CABECALHO MOBILE*/
+    background-color: #c1bfbfce;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -66,7 +63,7 @@ ul {
 }
 
 #header-main img {
-    height: 70px; /*TAMANHO DA LOGO NO CABEÇALHO DESKTOP*/
+    height: 70px;
 }
 .icons {
     display: flex;
@@ -134,12 +131,11 @@ ul {
     gap: 20px;
     justify-content: space-around;
 }
-#promo-destaq1{
+.promo-destaque-story {
     width: 30%;
     height: 150px;
     border-radius: 30px;
-    background-image: url("../img/bannercentral.png"); /*IMAGEM PARA SEÇÃO DE PROMOÇÃO STORY*/
-    background-size: contain;
+    background-color: #03062c;
 }
 .promodestaque {
     display: flex;
