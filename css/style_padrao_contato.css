@@ -62,7 +62,7 @@ ul {
 }
 
 #header-main img {
-    height: 70px;
+    height: 60px;
 }
 .icons {
     display: flex;
@@ -108,6 +108,7 @@ ul {
     font-size: 25px;
 }
 .section-contato {
+    width: 90%;
     display: flex;
     color: white;
     justify-content: center;

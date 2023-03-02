@@ -15,3 +15,7 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+window.sr = ScrollReveal({ reset:true});
+sr.reveal('.section-promocao', { duration:1000});
+

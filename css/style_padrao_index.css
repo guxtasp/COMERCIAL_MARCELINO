@@ -5,20 +5,6 @@ body {
     font-family: "Raleway", sans-serif;
     background-color: white;
 }
-
-#header-main {
-    padding: 5px 0 10px 0;
-    background-color: #c1bfbfce;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    border-bottom: 0.2px solid rgb(206, 201, 201);
-}
 ul {
     margin: 0;
 }
@@ -62,17 +48,29 @@ ul {
     font-size: 15px;
 }
 
+#header-main {
+    padding: 5px 0 10px 0;
+    background-color: #c1bfbfce;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    border-bottom: 0.2px solid rgb(206, 201, 201);
+}
+
 #header-main img {
-    height: 70px;
+    height: 60px;
 }
 .icons {
     display: flex;
     gap: 60px;
 }
 
-#icon1,
-#icon2,
-#icon3 {
+.fa-brands {
     cursor: pointer;
     text-decoration: none;
     color: black;
@@ -106,6 +104,7 @@ ul {
     width: 100%;
 }
 
+
 .section-promocao {
     display: flex;
     width: 100%;
@@ -113,7 +112,6 @@ ul {
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    gap: 15px;
 }
 .section-promocao h2 {
     font-family: "Poppins", sans-serif;
@@ -125,33 +123,33 @@ ul {
     width: 100%;
 }
 .promos-destaques {
-    width: 100%;
-    margin: 20px;
+    margin-top: 20px;
+    width: 90%;
     display: flex;
-    gap: 20px;
     justify-content: space-around;
 }
 .promo-destaque-story {
     width: 30%;
-    height: 150px;
+    height: 120px;
     border-radius: 30px;
     background-color: #03062c;
 }
 .promodestaque {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 60%;
     justify-content: center;
     margin: auto;
-    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 20px;
 }
 .promodestaque img {
-    height: 250px;
+    height: 200px;
     width: auto;
-    border-radius: 20px;
 }
 .promodestaque-info {
-    width: 40%;
+    width: 1fr;
     display: flex;
     text-align: justify;
     justify-content: center;
@@ -162,17 +160,17 @@ ul {
 
 .tittle-destaca {
     font-family: "Poppins", sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: -3px;
 }
 
 .v-normal,
 .descricao-destaca {
-    font-size: 20px;
+    font-size: 14px;
 }
 .v-promocional {
-    margin-top: -25px;
-    font-size: 30px;
+    margin-top: -20px;
+    font-size: 20px;
     font-family: "Poppins", sans-serif;
     color: #ff0000;
 }
@@ -180,45 +178,17 @@ ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 10px;
-    gap: 30px;
+    gap: 20px;
+    width: 90%;
 }
 
 .promocao-card {
     background-color: #03062c;
     width: 20vw;
-    height: 30vh;
-}
-.section-departamento {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-}
-#title-departamento {
-    margin: 90px 0 20px;
-    text-align: center;
-    font-size: 40px;
-    font-family: "Poppins", sans-serif;
+    height: 200px;
 }
 
-.departamentos {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-.departamento {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #1400ff;
-    border-radius: 40px;
-    width: 2px;
-    width: 20%;
-    height: 20%;
-}
+
 #departamento1{order:5;}
 #departamento2{order:7;}
 #departamento3{order:9;}
@@ -231,35 +201,13 @@ ul {
 #departamento10{order:6;}
 #departamento11{order:2;}
 #departamento12{order:8;}
-.circle-departamento {
-    background-color: #18e35c;
-    border-radius: 40px;
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-a {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-}
-.icone {
-    max-height: 50px;
-    width: 50%;
-    height: 50%;
-    margin: 25px;
+
+.section-orcamento{
+    margin: 50px 0 ;
+    background-color: #03062C;
+    padding: 50px;
 }
 
-.icone img {
-    width: 50px;
-}
-.name-departamento {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    margin: 10px;
-    text-align: center;
-}
 .orcamento {
     margin-top: 40px;
     gap: 0px;
@@ -267,10 +215,10 @@ a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: #03062c;
+    color: #ffffff;
 }
 .orcamento h2 {
-    font-size: 40px;
+    font-size: 32px;
     margin-bottom: 0;
     font-family: "Poppins", sans-serif;
 }
@@ -279,12 +227,13 @@ a {
     margin-top: 0;
 }
 .orcamento img {
-    width: 30%;
-    height: auto;
+    width: auto;
+    height: 60vh;
     margin: 20px;
 }
 
 .orcamento button {
+    margin-top: 20px;
     padding: 10px 25px;
     font-size: 25px;
     width: 300px;
@@ -311,7 +260,7 @@ a {
 .section-marcas h2 {
     margin-left: 10px;
     font-family: "Poppins";
-    font-size: 40px;
+    font-size: 32px;
 }
 .marquee-full-width {
     width: 100%;
@@ -458,7 +407,7 @@ a {
     width: 100%;
 }
 .apresentacao h2 {
-    font-size: 40px;
+    font-size: 32px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -579,10 +528,17 @@ a {
     color: rgb(180, 179, 179);
     font-family: "Raleway", sans-serif;
     font-size: 15px;
+    text-align: center;
 
 }
 
+#icon-r1,#icon-r2,#icon-r3,#icon-r4{
+    color: white;
+}
 
+.section-promocao{
+    visibility: hidden;
+ }
 @media screen and (max-width: 600px) {
     .botoes,
     .icons {
@@ -685,24 +641,24 @@ a {
     .section-promocao {
         width: 100%;
     }
-    .promos-destaques {
-        margin: 10px;
+    
+    .promo-destaque-story {
+        height: 60px;
+        gap: 2px;
+        border-radius: 20px;
     }
     .promodestaque {
         gap: 6px;
+        width: 300px;
+        
     }
     .promodestaque img {
-        width: 40%;
+        width: 100px;
         height: auto;
-    }
-    .promo-destaque-story {
-        width: 25%;
-        height: 80px;
-        border-radius: 20px;
     }
     .tittle-destaca,
     .v-promocional {
-        font-size: 15px;
+        font-size: 12px;
         margin: 0;
         text-align: center;
     }
@@ -718,38 +674,7 @@ a {
         gap: 5px;
         height: 20vh;
     }
-    .section-departamento {
-        width: 100%;
-    }
-    #title-departamento {
-        font-size: 20px;
-        margin-top: 10px;
-    }
-    .departamentos {
-        margin: 5px;
-        width: 98%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 5px;
-    }
-    .departamento {
-        width: 50px;
-        padding: 0px 20px 20px 20px;
-    }
-    .name-departamento {
-        font-size: 10px;
-        margin: -20px 0 0 0;
-        text-align: center;
-    }
-
-    .circle-departamento {
-        width: 50px;
-        height: 50px;
-    }
-    .icone img {
-        width: 20px;
-    }
+   
     .orcamento {
         width: 100%;
         display: flex;
@@ -852,5 +777,6 @@ a {
     }
     #copy {
         font-size: 10px;
+        text-align: center;
     }
 }
