@@ -140,8 +140,8 @@ ul {
     width: 60%;
     justify-content: center;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom:40px;
     gap: 20px;
 }
 .promodestaque img {
@@ -158,7 +158,7 @@ ul {
     flex-direction: column;
 }
 
-.tittle-destaca {
+#title-destaca {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     margin-bottom: -3px;
@@ -174,6 +174,48 @@ ul {
     font-family: "Poppins", sans-serif;
     color: #ff0000;
 }
+#botao-direcionado{
+    position: relative;
+    right: 300px;
+}
+#botao-direcionado > a{
+    visibility: hidden;
+}
+#botao-direcionado > a > img{
+    visibility: visible;
+    margin: auto;
+    width: 23px;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: #8ef521;
+    height: auto;
+}
+#botao-direcionado > a:hover{
+    display: flex;
+    visibility: visible;
+    padding-right: 20px;
+    background-color: #8bd63b;
+    border-radius: 100px 100px 100px 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+    animation: fadeIn 1s linear;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@keyframes fadeIn {
+    from{ opacity: 0;
+    }
+    to{ opacity: 1; 
+    }
+}
+
 .hall-promo {
     display: flex;
     justify-content: space-around;
@@ -187,8 +229,74 @@ ul {
     width: 20vw;
     height: 200px;
 }
+.section-departamento{
+    margin: 40px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title-departamento{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.departamentos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 75%;
+}
+.departamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px ;
+}
+
+.circle-departamento{
+    margin: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
+}
+.icone{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone > a > img {
+    width: 60px;
+    height: 60px;
+    height: auto;
+}
+
+.name-departamento > a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+#nome-ajustavel{
+    font-size: 14px;
+    text-align: center;
+}
+#icone-ajustavel{
+    width: 50px;
+    height: 50px;
+}
 #departamento1{order:5;}
 #departamento2{order:7;}
 #departamento3{order:9;}
@@ -228,15 +336,15 @@ ul {
 }
 .orcamento img {
     width: auto;
-    height: 60vh;
+    height: 400px;
     margin: 20px;
 }
 
 .orcamento button {
     margin-top: 20px;
-    padding: 10px 25px;
-    font-size: 25px;
-    width: 300px;
+    padding: 10px 15px;
+    font-size: 18px;
+    width: 200px;
     font-family: "Raleway", sans-serif;
     display: flex;
     gap: 20px;
@@ -327,17 +435,36 @@ ul {
     }
 }
 .section-apresentacao {
-    width: 100%;
+    margin: auto;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     text-align: center;
 }
-.fotos {
+.section-apresentacao a {
+    text-decoration: none;
+}
+.apresentacao {
+    background-color: white;
     width: 100%;
-    height: 100vh;
+}
+.apresentacao h2 {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+}
+
+.apresentacao p {
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.fotos {
+    margin: auto;
+    width: 60%;
+    height: 450px;
     display: grid;
     grid-template-areas:
         "f1 f2 f3"
@@ -374,7 +501,7 @@ ul {
 }
 #ft5 {
     grid-area: f5;
-    /*background-image: url("");*/
+    /*background-image: url("");*/  /*adicione as fotos que deseja dentro da url*/
     background-size: cover;
 }
 #ft6 {
@@ -385,10 +512,9 @@ ul {
 
 .section-apresentacao button {
     padding: 10px 15px;
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
-    width: 400px;
-    margin-top: 50px;
+    width: 200px;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     border-radius: 20px;
@@ -399,24 +525,9 @@ ul {
 .section-apresentacao button:hover {
     background-color: #e2a415;
 }
-.section-apresentacao a {
-    text-decoration: none;
-}
-.apresentacao {
-    background-color: white;
-    width: 100%;
-}
-.apresentacao h2 {
-    font-size: 32px;
-    font-family: "Poppins", sans-serif;
-}
-
-.apresentacao p {
-    font-size: 20px;
-}
 
 .section-localiza {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -424,7 +535,7 @@ ul {
 }
 
 .section-localiza h2 {
-    font-size: 40px;
+    font-size: 32px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -548,6 +659,7 @@ ul {
         display: none;
     }
     #header {
+        z-index: 9999999;
         display: flex;
         position: sticky;
         top: 0;
@@ -656,7 +768,7 @@ ul {
         width: 100px;
         height: auto;
     }
-    .tittle-destaca,
+    #title-destaca,
     .v-promocional {
         font-size: 12px;
         margin: 0;
@@ -669,12 +781,51 @@ ul {
     .v-promocional {
         margin-top: -15px;
     }
+    #botao-direcionado{
+        visibility: visible;
+        right: 110px;
+        top: -20px;
+        z-index: 30;
+    }
+    #botao-direcionado > a > img{
+        width: 15px;
+    }
+    #botao-direcionado > a:hover{
+        font-size: 10px;
+    }
     .promocao-card {
         width: 40vw;
         gap: 5px;
         height: 20vh;
     }
-   
+    .name-departamento > a{
+        font-size: 10px;
+    }
+    #title-departamento{
+        font-size: 18px;
+    }
+    .departamento{
+        width: 60px;
+        height: 60px;
+    }
+    .circle-departamento{
+        margin: 5px;
+    }
+    .icone{
+        padding: 5px;
+    }
+    .icone > a > img {
+        width: 20px;
+        height: 20px;
+    }
+    .name-departamento > #nome-ajustavel{
+        display: flex;
+        font-size: 10px;
+    }
+    .icone > a > #icone-ajustavel{
+        width: 20px;
+        height: 20px;
+    }
     .orcamento {
         width: 100%;
         display: flex;
