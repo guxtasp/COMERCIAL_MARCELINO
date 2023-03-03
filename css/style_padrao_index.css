@@ -787,11 +787,12 @@ ul {
         top: -20px;
         z-index: 30;
     }
+
     #botao-direcionado > a > img{
         width: 15px;
     }
     #botao-direcionado > a:hover{
-        font-size: 10px;
+        visibility: hidden;
     }
     .promocao-card {
         width: 40vw;
