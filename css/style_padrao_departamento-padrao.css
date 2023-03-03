@@ -90,7 +90,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: left;
-    font-size: 30px;
+    font-size: 32px;
     gap: 20px;
     color: white;
     margin-top: -90px;
@@ -111,7 +111,7 @@ ul {
     width: 50px;
 }
 .title-section {
-    font-size: 30px;
+    font-size: 24px;
     margin: 40px;
     text-align: center;
 }
@@ -126,6 +126,9 @@ ul {
     justify-content: center;
     flex-direction: column;
 
+}
+.produto > p{
+    font-size: 14px;
 }
 .produto:hover {
     transition: all 0.5s;
@@ -169,20 +172,29 @@ justify-content: center;
     font-weight: bold;
 
 }
+.categorias-section-departamento p{
+    font-size: 14px;
+}
 .categorias-section-departamento p:hover{
     background-color: #353855;
     transition-property: background-color;
     transition: all 0.4s;
     cursor: pointer;
     padding: 10px;
+    color: #ccc;
 }
 .categorias-section-departamento img{
     width: 200px;
     border-radius: 20px;
     height: auto;
 }
+.section-orcamento{
+    margin: 50px 0 ;
+    padding: 50px;
+}
+
 .orcamento {
-    margin-top: 40px;
+    margin-top: -40px;
     gap: 0px;
     display: flex;
     justify-content: center;
@@ -191,7 +203,7 @@ justify-content: center;
     color: #03062C;
 }
 .orcamento h2 {
-    font-size: 40px;
+    font-size: 32px;
     margin-bottom: 0;
     font-family: "Poppins", sans-serif;
 }
@@ -200,15 +212,16 @@ justify-content: center;
     margin-top: 0;
 }
 .orcamento img {
-    width: 30%;
-    height: auto;
+    width: auto;
+    height: 400px;
     margin: 20px;
 }
 
 .orcamento button {
-    padding: 10px 25px;
-    font-size: 25px;
-    width: 300px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    width: 200px;
     font-family: "Raleway", sans-serif;
     display: flex;
     gap: 20px;
@@ -217,10 +230,10 @@ justify-content: center;
     text-transform: uppercase;
     border-radius: 20px;
     color: white;
-    background-color: #82DC23;
+    background-color: #82dc23;
     border: none;
 }
-.orcamento button p{
+.orcamento button p {
     margin: 0;
 }
 .orcamento button:hover {
@@ -474,23 +487,30 @@ justify-content: center;
     .categorias-section-departamento img{
         width: 100%;
     }
-    .orcamento{
+    .section-orcamento{
+        height: 300px;
+    }
+    .orcamento {
+        margin: -40px auto;
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .orcamento h2{
+    .orcamento h2 {
+        text-align: center;
         font-size: 20px;
     }
-    .orcamento p{
+    .orcamento p {
         font-size: 15px;
+        text-align: center;
     }
-    .orcamento img{
+    .orcamento > img {
         margin: 0;
-        margin-bottom: 10px;
+        width: 200px;
+        height: auto;
     }
-    .orcamento button{
-        width: 100%;
+    .orcamento button {
+        width: 140px;
         height: 40px;
         font-size: 12px;
         display: flex;
@@ -498,7 +518,7 @@ justify-content: center;
         align-items: center;
     }
 
-    .orcamento button p{
+    .orcamento button p {
         margin: 0 10px;
     }
 

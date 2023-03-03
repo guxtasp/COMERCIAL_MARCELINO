@@ -501,7 +501,7 @@ ul {
 }
 #ft5 {
     grid-area: f5;
-    /*background-image: url("");*/  /*adicione as fotos que deseja dentro da url*/
+    background-image: url("../img/foto6.jpg");  /*adicione as fotos que deseja dentro da url*/
     background-size: cover;
 }
 
