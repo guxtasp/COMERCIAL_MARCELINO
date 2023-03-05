@@ -13,6 +13,7 @@ body {
     justify-content: space-around;
     position: sticky;
     top: 0;
+    z-index: 999999;
     width: 100%;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -77,175 +78,78 @@ ul {
     color: black;
     font-size: 25px;
 }
-.section-campanha img {
-    width: 100%;
-    height: auto;
-}
-.section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.section img{
-    width: 100%;
-    height: auto;
-}
 
-.departamentos-historias{
+.apresentacao-empresarial{
     display: flex;
     flex-direction: column;
+
+}
+.apresentacao-visual {
+    padding: 80px 0;
+    background: rgb(2, 0, 36);
+    background: -moz-linear-gradient(301deg, rgba(2, 0, 36, 1) 3%, rgba(3, 6, 44, 1) 46%, rgba(89, 89, 98, 1) 88%);
+    background: -webkit-linear-gradient(301deg, rgba(2, 0, 36, 1) 3%, rgba(3, 6, 44, 1) 46%, rgba(89, 89, 98, 1) 88%);
+    background: linear-gradient(301deg, rgba(2, 0, 36, 1) 3%, rgba(3, 6, 44, 1) 46%, rgba(89, 89, 98, 1) 88%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#595962",GradientType=1);
+    display: flex;
+    gap: 30px;
+    height: auto;
     justify-content: center;
-    align-items: center;
-    margin: 40px 40px 0 40px;
+    flex-wrap: wrap;
 }
 
-#small-text{
-    font-weight: bold;
-    letter-spacing: 20px;
-    color: #f6ae03;
-    font-weight: 400;
-    margin: 0;
+
+.apresentacao-visual > .apresentacao-info {
+    width: 45%;
+    color: #fff;
 }
-#title-text-departa{
-    text-transform: uppercase;
-    font-family: 'Poppins', sans serif;
+.title-apresentacao {
     margin-top: 0;
-    font-size: 30px;
-}
-
-#descricao-text-departa{
-    margin: 15px;
-    color: #000000;
-    margin-top: -15px;
-    font-size: 25px;
-}
-
-.departamentos-historias img{
-    width: 800px;
-    height: auto;
-}
-.video {
-    width: 80%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 50px;
-    margin: 60px;
-    margin: auto;
-}
-.video img{
-    width: 50%;
-    height: auto;
-    object-fit: cover;
-
-}
-.video-historia{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.video-historia p{
-    font-weight: bold;
-    font-size:30px;
-}
-
-.section-apresentacao {
-    width: 80%;
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
     text-align: center;
+    font-size: 32px;
 }
-.apresentacao{
-    width: 100%;
-}
-.fotos {
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-areas:
-        "f1 f2 f3"
-        "f1 f2 f3"
-        "f1 f4 f5"
-        "f1 f4 f6";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1 fr;
-    row-gap: 1em;
-    column-gap: 1em;
-}
-.foto {
-    background-color: #03062C;
-}
-#ft1 {
-    grid-area: f1;
-    background-image: url("../img/foto1.jpg");
-    background-size: cover;
-}
-#ft2 {
-    grid-area: f2;
-    background-image: url("../img/foto2.jpg");
-    background-size: cover;
-}
-#ft3 {
-    grid-area: f3;
-
-    background-image: url("../img/foto5.jpg");
-    background-size: cover;
-}
-#ft4 {
-    grid-area: f4;
-    background-image: url("../img/foto3.jpg");
-    background-size: cover;
-    
-}
-#ft5 {
-    grid-area: f5;
-
-    /*background-image: url("");*/
-    background-size: cover;
-
-}
-#ft6 {
-    grid-area: f6;
-    /*background-image: url("");*/
-    background-size: cover;
-}
-.section-apresentacao a {
-    text-decoration: none;
-}
-.apresentacao {
-    background-color: white;
-}
-.apresentacao h2 {
-    font-size: 40px;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: -25px;
-}
-
-.apresentacao p, .final {
-    font-size: 20px;
-    width: 100%;
-}
-
-.final{
-    width: 100%;
+.texto-apresentacao {
+    line-height: 1.5;
+    font-size: 16px;
     text-align: justify;
 }
+
+
+.section-quemsomos{
+    padding: 50px 0 20px 0;
+    width: 90%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.bloco-quemsomos{
+    width: 45%;
+    margin: 0;
+    padding: 0;
+}
+.galeria-quemsomos{
+    width: 45%;
+    margin: 0;
+    padding: 0;
+}
+.galeria-quemsomos > img{
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+}
+
 
 .fotter-main {
     border-radius: 120px 0 0 0;
     margin-top: 25px;
     height: 250px;
-    background-color: #03062C;
+    background-color: #03062c;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -256,9 +160,8 @@ ul {
 #logo-rodape {
     width: 150px;
     height: auto;
-
 }
-.botoes-rodape{
+.botoes-rodape {
     display: flex;
 }
 
@@ -268,7 +171,6 @@ ul {
     text-transform: uppercase;
     text-decoration: none;
     color: rgb(255, 255, 255);
-
 }
 
 .botao-rodape:hover {
@@ -304,7 +206,7 @@ ul {
     display: flex;
     flex-direction: column;
 }
-#frase-venhafazer{
+#frase-venhafazer {
     font-size: 30px;
 }
 
@@ -333,11 +235,9 @@ ul {
     color: rgb(180, 179, 179);
     font-family: "Raleway", sans-serif;
     font-size: 15px;
-
 }
 
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .botoes,
     .icons {
         display: none;
@@ -346,6 +246,7 @@ ul {
         display: none;
     }
     #header {
+        z-index: 999999;
         display: flex;
         position: sticky;
         top: 0;
@@ -413,119 +314,78 @@ ul {
         transform: rotate(-135deg);
         top: -7px;
     }
-.section{
-    width: 100%;
-}
-#small-text{
-    font-size: 9px;
-    letter-spacing: 5px;
-}
-
-#title-text-departa{
-    font-size: 12px;
-    text-align: center;
-}
-#descricao-text-departa{
-    margin-top: 2px;
-    font-size: 10px;
-    text-align: center;
-}
-.departamentos-historias img{
-    width: 100%;
-}
-
-.video{
-    width: 80%;
-    height: auto;
-}
-
-.video img{
-    display: none;
-}
-.video-historia{
-    width: 100%;
-    height: auto;
-}
-.video-historia p{
-    font-size: 18px;
-    font-weight: bold;
-}
-.video-historia iframe{
-    width: 100%;
-    display: block;
-    height: 300px;
-    margin: 0;
-}
-
-.apresentacao{
-    margin-top: -100px;
-}
-.section-apresentacao{
-    width: 80%;
-}
-.apresentacao h2{
-    font-size: 20px;
-}
-.apresentacao p{
-    font-size: 16px;
-
-}
-.fotos{
-    height: 30vh;
-}
-
-.section-localiza h2, .section-localiza i{
-    font-size: 20px;
-    padding: 2px;
-}
-
-.final{
-    width: 100%;
-    font-size: 10px;
-}
-
-.fotter-main{
-    height: 150px;
-}
-
-#logo-rodape {
-    width: 30%;
-    height: auto;
-    margin: 0;
-}
-.botao-rodape {
-    font-size: 8px;
-    gap: 0;
-}
-
-.convidativo img {
-    width: 100px;
-    height: auto;
-    margin-left: 10px;
-    margin: 0;
-}
-.frase-convidativo {
-    display: flex;
-    justify-content: left;
-    margin-bottom: 0;
-}
-#frase-venhafazer {
-    font-size: 18px;
-}
-#frase-suascompras {
-    font-size: 10px;
-    margin-top: -30px;
-}
-.redes{
-    display: flex;
-    gap: 40px;
-}
-.redes a {
-    font-size: 14px;
-    margin-top: 15px;
-}
-#copy {
-    font-size: 10px;
-}
-    
+    .apresentacao-visual{
+        padding: 20px 0;
+        gap: 5px;
     }
+    .apresentacao-visual > iframe{
+        width: 90%;
+        height: 180px;
+    }
+    .apresentacao-visual > .apresentacao-info{
+        width: 90%;
+    }
+    .title-apresentacao{
+        font-size: 20px;
+    }
+    .texto-apresentacao{
+        font-size: 12px;
+    }
+    .section-quemsomos{
+        padding: 30px 0;
+    }
+    .bloco-quemsomos{
+        width: 100%;
+        margin: auto;
+    }
+    .galeria-quemsomos{
+        width: 100%;
+    }
+    .galeria-quemsomos > img{
+        height: 200px;
+        display: block;
+    }
+    .fotter-main {
+        height: 150px;
+    }
+
+    #logo-rodape {
+        width: 30%;
+        height: auto;
+        margin: 0;
+    }
+    .botao-rodape {
+        font-size: 8px;
+        gap: 0;
+    }
+
+    .convidativo img {
+        width: 100px;
+        height: auto;
+        margin-left: 10px;
+        margin: 0;
+    }
+    .frase-convidativo {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 0;
+    }
+    #frase-venhafazer {
+        font-size: 18px;
+    }
+    #frase-suascompras {
+        font-size: 10px;
+        margin-top: -30px;
+    }
+    .redes {
+        display: flex;
+        gap: 40px;
+    }
+    .redes a {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    #copy {
+        font-size: 10px;
+    }
+}

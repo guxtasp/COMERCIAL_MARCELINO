@@ -15,24 +15,30 @@
 </head>
 
 <body>
-    <!--MENU (CABECALHO) DESKTOP -->
-    <header id="header"><!--CABEÇALHO MOBILE-->
+    <!--CABEÇALHO MOBILE-->
+    <header id="header">
+        <!--LOGO NO CABEÇALHO MOBILE - EDITAVEL-->
         <a class="links-header" id="logo" href="index.html"><img src="img/logo.png"
-                alt=""></a><!--LOGO NO CABEÇALHO MOBILE- EDITAVEL-->
+                alt="logo da empresa Comercial Marcelino"></a>
+
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
                 aria-expanded="false">
                 <span id="hamburger"></span>
             </button>
-            <ul id="menu" role="menu"><!-- MENU NO CABEÇALHO MOBILE-->
-                <!--(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA ABAIXO, DEPOIS MUDE O NOME E O LINK) - EDITÁVEL-->
+
+            <ul id="menu" role="menu">
+
                 <li class="links-header"><a href="historia.html">Sobre nós</a></li>
                 <!--LINK DO MENU NO CABEÇALHO MOBILE - HISTORIA-->
+
                 <li class="links-header"><a href="contato.html">Contato</a></li>
                 <!--LINK DO MENU NO CABEÇALHO MOBILE - CONTATO-->
+
                 <li class="links-header"><a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i
                             id="icon1" class="fa-brands fa-facebook"></i></a></li>
                 <!--LINK DO MENU NO CABEÇALHO MOBILE - FACEBOOK -->
+
                 <li class="links-header"><a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i
                             id="icon2" class="fa-brands fa-instagram"></i></a></li>
                 <!--LINK DO MENU NO CABEÇALHO MOBILE - INSTAGRAM -->
@@ -44,70 +50,91 @@
             </ul>
         </nav>
     </header>
-    <script src="js/main-menu.js"></script>
-    <header id="header-main"><!--CABEÇALHO DESKTOP-->
-        <div class="botoes"><!--BOTOES LADO DIREITO-->
-            <!--(CASO QUEIRA ADICIONAR OUTO BOTÃO, COPIE MESMA ESTRUTURA ABAIXO, DEPOIS MUDE O NOME E O LINK) - EDITÁVEL-->
+
+    <!--CABEÇALHO DESKTOP-->
+    <header id="header-main">
+        <div class="botoes"><!--BOTOES LADO ESQUERDO-->
+
             <a class="botao" href="historia.html">Sobre nós</a>
             <!--BOTÃO SOBRE NÓS-->
+
             <a class="botao" href="contato.html">Contato</a>
-            <!--BOTÃO SOBRE NÓS-->
+            <!--BOTÃO CONTATO-->
         </div>
         <a href="index.html"> <img src="img/logo.png" alt="logo Comercial Marcelino"></a>
         <!--LOGO DA EMPRESA - EDITÁVEL-->
-        <div class="icons"> <!--ICONES DO CABECALHO-->
+
+
+        <div class="icons"> <!--BOTOES LADO DIREITO (REDES SOCIAIS)-->
+
             <a href="https://www.facebook.com/comercialmarcelino" target="_blank"> <i id="icon1"
-                    class="fa-brands fa-facebook"></i></a><!--ICONE FACE-->
+                    class="fa-brands fa-facebook"></i></a>
+            <!--LINK DO MENU NO CABEÇALHO DESKTOP - FACEBOOK -->
+
             <a href="https://www.instagram.com/comercialmarcelino/" target="_blank"> <i id="icon2"
-                    class="fa-brands fa-instagram"></i></a><!--ICONE INSRA-->
+                    class="fa-brands fa-instagram"></i></a>
+            <!--LINK DO MENU NO CABEÇALHO DESKTOP - INSTAGRAM -->
+
             <a href="https://wa.me/5577999699110?text=Ol%C3%A1%21+Gostaria+de+fazer+um+or%C3%A7amento." target="_blank">
-                <i id="icon3" class="fa-brands fa-whatsapp"></i></a><!--ICONE WHATS-->
+                <i id="icon3" class="fa-brands fa-whatsapp"></i></a>
+            <!--LINK DO MENU NO CABEÇALHO DESKTOP - FACEBOOK -->
+
         </div>
     </header>
-    <section class="section-campanha"> <!--BANNER CENTRAL DO SITE- - EDITÁVEL -->
-        <!--SOURCE MEDIA SERVE PARA QUAL MELHOR DE ADAPTAR-->
-        <picture>
-            <source media="(max-width: 600px)" srcset="img/bannercentral_mobile.png" type="image/png">
-            <!--BANNER MOBILE - TAMANHO 450px - EDITÁVEL-->
-            <img src="img/bannercentral.png" alt=""> <!--BANNER DESKTOP - TAMANHO 450px - EDITÁVEL-->
-        </picture>
-    </section>
-    <section class="departamentos-historias"> <!--SEÇÃO SOBRE DEPARTAMENTOS-->
-        <p id="small-text">COMERCIAL MARCELINO </p> <!--TEXTO PEQUENO - EDITAVEL-->
-        <h2 id="title-text-departa">Trabalhando com o melhor material para você</h2><!--TEXTO GRANDE - EDITAVEL-->
-        <p id="descricao-text-departa">Grande variedade de departamentos para sua casa</p>
-        <!--DESCRIÇÃO - TEXTO PEQUENO - EDITAVEL-->
-        <img src="img/setores.png" alt=""> <!--IMAGEM DA CASA - EDITAVEL-->
-    </section>
-    <section class="video"> <!--VIDEO DE APRESENTAÇÃO-->
-        <img src="img/apresenta.png" alt=""> <!--MOÇO INDICANDO -->
-        <div class="video-historia">
-            <p> CONHEÇA NOSSA EMPRESA</p><!--FRASE EM CIMA DO VIDEO - EDITAVEL  -->
+    
+    <!--CONTEÚDO DA PÁGINA-->
+    <main class="apresentacao-empresarial">
+        
+
+        <div class="apresentacao-visual">
             <iframe allow="autoplay;" allowfullscreen style="border:none"
-                src="https://clipchamp.com/watch/IIFPlG8XriK/embed" width="640" height="360"></iframe>
+            src="https://clipchamp.com/watch/IIFPlG8XriK/embed" width="640" height="360"></iframe>
             <!--VIDEO - EDITAVEL  -->
+            <div class="apresentacao-info">
+            <h2 class="title-apresentacao">Apresentação</h2>
+            <p class="texto-apresentacao">Fundada há 14 anos, a Comercial Marcelino é uma empresa de destaque no
+                mercado de materiais de construção. Localizada em Carinhanha, Bahia. A empresa se diferencia pela
+                qualidade e
+                diversidade de seus produtos, atendendo desde pequenas reformas até grandes obras. Com uma equipe de
+                profissionais comprometidos em oferecer um atendimento personalizado e eficiente, a
+                Comercial Marcelino busca sempre superar as expectativas de seus clientes. Seu sólido conhecimento do
+                mercado é refletido em sua missão de busca contínua por oferecer produtos e serviços de alta qualidade.
+            </p>
+           
         </div>
-    </section>
-    <section class="section-apresentacao"><!--SEÇAO APRESENTAÇÃO-->
-        <div class="apresentacao">
-            <h2>NOSSA HISTÓRIA</h2><!--TITULO DA SEÇÃO-->
-            <p>14 anos construindo sonhos</p><!--SUBTITULO DA SEÇÃO-->
-            <div class="fotos"><!--CONJUNTO DE FOTOS-->
-                <div class="foto" id="ft1"></div><!--FOTO I-->
-                <div class="foto" id="ft2"></div><!--FOTO II-->
-                <div class="foto" id="ft3"></div><!--FOTO III-->
-                <div class="foto" id="ft4"></div><!--FOTO IV-->
-                <div class="foto" id="ft5"></div><!--FOTO V-->
-                <div class="foto" id="ft6"></div><!--FOTO VI-->
+        </div>
+
+        <div class="section-quemsomos">
+            <div class="bloco-quemsomos">
+                <h2 class="title-apresentacao">Quem somos?</h2>
+                <p class="texto-apresentacao">A nossa empresa é uma referência no mercado de material de construção, atuando há
+                    14 anos com excelência e comprometimento. Durante todo esse tempo, nos dedicamos a oferecer produtos
+                    de qualidade e um atendimento personalizado, visando sempre atender às necessidades dos nossos
+                    clientes.
+                    <br> <br>
+                    Com um amplo catálogo de produtos, oferecemos desde materiais básicos, como cimento, tijolos e
+                    areia, até itens mais sofisticados, como revestimentos, louças e metais sanitários. Contamos com
+                    fornecedores de confiança e selecionamos cuidadosamente cada produto que disponibilizamos em nossa
+                    loja, buscando sempre garantir a satisfação dos nossos clientes.
+                    Além disso, contamos com uma equipe de profissionais qualificados e experientes, prontos para
+                    oferecer um atendimento personalizado e prestar toda a assistência necessária aos nossos clientes,
+                    desde o momento da escolha dos produtos até a entrega e instalação. Valorizamos a transparência e a
+                    honestidade em todas as nossas relações comerciais, e buscamos sempre estabelecer uma relação de
+                    confiança e fidelidade com nossos clientes.
+                    <br> <br>
+                    Ao longo desses 14 anos de atuação no mercado, conquistamos a confiança e o reconhecimento de nossos
+                    clientes e parceiros, e estamos sempre em busca de aprimoramento e inovação para oferecer o melhor
+                    em produtos e serviços. A nossa empresa é mais do que um simples fornecedor de materiais de
+                    construção, somos uma parceira de confiança para os nossos clientes, contribuindo para a realização
+                    de seus projetos e sonhos.
+                </p>
+            </div>
+            <div class="galeria-quemsomos">
+                    <img src="img/foto2.jpg" alt="foto dentro da empresa" >
             </div>
         </div>
-        <p class="final">Desde 2009, trabalhando com o melhor material de construção! Realizando seu sonho de ter a casa
-            própria. Oferecendo atendimento, suporte e entrega com comprometimento e qualidade garantida.</p>
-        <!--TEXTO FINAL DA GALERIA DE FOTOS-->
-    </section>
 
-
-
+    </main>
 
 
 
@@ -143,7 +170,7 @@
         </div>
         <p id="copy">Copyright &copy; Comercial Marcelino</p> <!--COPYRIGHT - RODAPÉ-->
     </footer>
-
+    <script src="js/main-menu.js"></script>
 </body>
 
 </html>
