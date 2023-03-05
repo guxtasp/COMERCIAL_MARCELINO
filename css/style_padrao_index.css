@@ -370,6 +370,7 @@ ul {
     font-family: "Poppins";
     font-size: 32px;
 }
+
 .marquee-full-width {
     width: 100%;
     position: relative;
@@ -641,6 +642,9 @@ ul {
 
 #icon-r1,#icon-r2,#icon-r3,#icon-r4{
     color: white;
+}
+#icon-r4{
+    font-size: 18px;
 }
 
 .section-promocao{
@@ -943,5 +947,8 @@ ul {
     #copy {
         font-size: 10px;
         text-align: center;
+    }
+    .fa-brands{
+        font-size: 18px;
     }
 }
