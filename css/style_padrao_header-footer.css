@@ -42,6 +42,7 @@
 }
 
 #header-main {
+    z-index: 9999999;
     padding: 5px 0 10px 0;
     background-color: #c1bfbfce;
     display: flex;
